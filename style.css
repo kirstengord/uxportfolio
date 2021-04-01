@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: .1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+/* Navbar */
+.navbar {
+    background-color: white !important;
+    padding: 5% 10% 0 14%;
+}
+
+a.navbar-brand {
+    background-color: #53cd92;
+    font-size: 1.7rem;
+    letter-spacing: .1rem;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+    margin-right: 50px;
+}
+
+.nav-link:hover {
+    border-radius: 5px;
+}
+
+.blue:hover {
+    background-color: #49ddf7;
+}
+
+.orange:hover {
+    background-color: #f7c7a7;
+}
+
+/* home page heading */
+.heading {
+    padding: 6% 11% 0 14%;
+}
+
+.left {
+    text-align: left;
+}
+.outline {
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: transparent;
+}
+
+.outline:hover {
+    -webkit-text-stroke: .5px rgb(36, 35, 35);
+    -webkit-text-fill-color: rgb(36, 35, 35);
+    border-radius: 10px;
+}
+
+.yellow:hover {
+    background-color: #f6f88c;
+}
+
+.pink:hover {
+    background-color: #fcb4e4;
+}
+
+a.outline-link {
+    text-decoration: none;
+}
+
+.cross-out {
+    text-decoration: line-through;
+}
+
+.writing {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+}
+
+.typeit {
+    padding-top: 7%;
+}
+
+/* I create better experiences for <span class="cross-out">users</span><span class="writing"> people.</span> */

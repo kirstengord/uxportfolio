@@ -1,6 +1,5 @@
 body {
     font-family: 'Poppins', sans-serif;
-    font-weight: 200;
     height: 100vh;
 }
 
@@ -11,7 +10,7 @@ h1 {
     letter-spacing: .1rem;
 }
 
-h3 {
+h3, h4 {
     font-size: 2rem;
     font-weight: 100;
 }
@@ -19,12 +18,14 @@ h3 {
 /* Navbar */
 .navbar {
     background-color: white !important;
-    padding: 5% 10% 0 14%;
+    padding: 5% 12% 0 14%;
+    text-align: right;
 }
 
 a.navbar-brand {
     background-color: #53cd92;
     font-size: 1.7rem;
+    font-weight: 100;
     letter-spacing: .1rem;
     padding: 0 5px;
     border-radius: 5px;
@@ -35,9 +36,11 @@ a.navbar-brand {
     width: 150px;
 }
 
-.nav-item {
+.nav-link{
+    color: black !important;
     font-size: 1.2rem;
-    margin-right: 50px;
+    font-weight: 100;
+    margin-left: 50px;
 }
 
 .nav-link:hover {
@@ -72,7 +75,7 @@ a.navbar-brand {
 }
 
 .yellow:hover {
-    background-color: #f6f88c;
+    background-color: #fff9b0;
 }
 
 .pink:hover {
@@ -96,4 +99,12 @@ a.outline-link {
     padding-top: 7%;
 }
 
-/* I create better experiences for <span class="cross-out">users</span><span class="writing"> people.</span> */
+.arrow {
+    text-align: center;
+    padding: 10% 20% 10%;
+}
+
+/* Work section */
+.recent-work {
+    padding: 0 11% 0 15%;
+}

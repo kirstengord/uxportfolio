@@ -11,7 +11,7 @@ h1 {
 }
 
 h3, h4 {
-    font-size: 1.9rem;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 
@@ -20,12 +20,13 @@ h3, h4 {
     background-color: white !important;
     padding: 5% 12% 0 14%;
     text-align: right;
+    padding-top: 30px;
 }
 
 a.navbar-brand {
-    background-color: #53cd92;
-    font-size: 1.3rem;
-    font-weight: 100;
+    color: #53cd92 !important;
+    font-size: 1.2rem;
+    font-weight: 500;
     letter-spacing: .1rem;
     padding: 0 5px;
     border-radius: 5px;
@@ -38,13 +39,27 @@ a.navbar-brand {
 
 .nav-link{
     color: black !important;
-    font-size: 1.2rem;
-    font-weight: 100;
+    font-size: 1.1rem;
+    font-weight: 200;
     margin-left: 50px;
 }
 
 .nav-link:hover {
     border-radius: 5px;
+}
+
+.green-link:hover {
+    background-color: #53cd92;
+}
+
+.green-text {
+    color: #53cd92 !important;
+}
+
+.green-text:hover {
+    color: black !important;
+    background-color: #53cd92;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .blue:hover {
@@ -57,11 +72,18 @@ a.navbar-brand {
 
 /* home page heading */
 .heading {
-    padding: 6% 11% 0 14%;
+    padding: 6% 7% 0 14%;
 }
 
 .left {
     text-align: left;
+}
+
+.green {
+    background-color: #53cd92;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 .outline {
     -webkit-text-stroke: 2px black;
@@ -74,15 +96,25 @@ a.navbar-brand {
     border-radius: 10px;
 }
 
+.outline-hover:hover {
+    background-color: transparent;
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #53cd92;
+    box-shadow: none;
+}
+
 .yellow:hover {
     background-color: #fff9b0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pink:hover {
     background-color: #fcb4e4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a.outline-link {
+    color: rgb(20, 20, 20);
     text-decoration: none;
 }
 
@@ -108,3 +140,4 @@ a.outline-link {
 .recent-work {
     padding: 0 11% 0 15%;
 }
+

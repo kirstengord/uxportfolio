@@ -11,7 +11,7 @@ h1 {
 }
 
 h3, h4 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 100;
 }
 
@@ -24,7 +24,7 @@ h3, h4 {
 
 a.navbar-brand {
     background-color: #53cd92;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: 100;
     letter-spacing: .1rem;
     padding: 0 5px;

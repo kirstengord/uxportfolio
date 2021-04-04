@@ -24,12 +24,14 @@ h3, h4 {
 }
 
 a.navbar-brand {
-    color: #53cd92 !important;
     font-size: 1.2rem;
     font-weight: 500;
     letter-spacing: .1rem;
     padding: 0 5px;
     border-radius: 5px;
+    background: -webkit-linear-gradient(45deg, #ff005c, #ffc93c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .logo {

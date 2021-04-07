@@ -12,7 +12,7 @@
         <meta property="og:url" content="https://kirstengord.github.io/portfolio2/">
         <meta property="og:title" content="Kirsten Gord - UX Engineer" />
         <meta property="og:description" content="I create better experiences for people." />
-        <title>{Kirsten Gord}</title>
+        <title>Kirsten Gord</title>
         <!-- Bootstrap link -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- style.css link -->
@@ -28,48 +28,67 @@
 
     <header>
         <!-- Bootstrap navbar -->
-        <div class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">{kirsten gord}</a>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="images/Logo.png" alt="Kirsten-Gord-Logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link pink" href="#work">work</a>
+                <a class="nav-link blue-text" href="#work">work</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link green-text" href="#about">about</a>
+                <a class="nav-link pink-text" href="#about">about</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link yellow" href="#contact">contact</a>
+                <a class="nav-link yellow-text" href="#contact">contact</a>
               </li>
             </ul>
             </div>
         </nav>
-      </div>
     </header> 
 
     <body>
     
       <div class="heading container-fluid">
         <div class="container-fluid">
-          <h1>Hi, I'm <a href="#about" class="green outline-link outline-hover">Kirsten</a>...</h1>
-          <h1 class="left">a <a class="outline-link outline pink" href="#work">UX designer</a> and <a class="outline-link outline pink" href="#work">engineer</a>.</h1>
+          <h1>Hi, I'm <a href="#about" class="pink outline-link outline-hover">Kirsten</a>...</h1>
+          <h1 class="left">a <a class="outline-link outline blue" href="#work">UX designer</a> and <a class="outline-link outline blue" href="#work">engineer</a>.</h1>
         </div>
         <div class="container-fluid">
           <h3 id="typeit" class="typeit"></h3>
       </div>
       </div>
 
-      <div class="arrow container-fluid">
-        <i class="fas fa-chevron-down fa-3x"></i>
+      <div class="container-fluid arrow">
+        <i class="arrows pink-arrow fas fa-sort-down fa-4x"></i>
+        <i class="arrows blue-arrow fas fa-sort-down fa-4x"></i>
+        <i class="arrows yellow-arrow fas fa-sort-down fa-4x"></i>
+        <i class="arrows blue-arrow fas fa-sort-down fa-4x"></i>
+        <i class="arrows pink-arrow fas fa-sort-down fa-4x"></i>
       </div>
 
+      <section id="work">
       <div class="recent-work container-fluid">
         <h4>recent work</h4>
+        <img src="images/2.png">
+        <img src="images/3.png">
+        <img src="images/1.png">
       </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer container-fluid">
+          <a href="mailto:kirstengorddesign@gmail.com" target="_blank"><i class="white far fa-envelope fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/kirstengord/" target="_blank"><i class="white fab fa-linkedin-in fa-2x"></i></a>
+          <a href="https://twitter.com/KirstenGord" target="_blank"><i class="white fab fa-twitter fa-2x"></i></a>
+          <a href="https://github.com/kirstengord" target="_blank"><i class="white fab fa-github fa-2x"></i></a>
+          <a href="https://www.figma.com/@kirstengord" target="_blank"><i class="white fab fa-figma fa-2x"></i></a>
+          <a href="https://medium.com/@kirstengord" target="_blank"><i class="white fab fa-medium-m fa-2x"></i></a>
+        </div>
+        <p class="copyright"><span class="copyright-sign">©</span> 2021 by Kirsten Gord ♡</p>
+    </footer>
  
     <!-- Javascript for Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

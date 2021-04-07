@@ -1,6 +1,8 @@
 body {
+    color: #2e2d2d;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    padding-top: 75px;
 }
 
 h1 {
@@ -15,32 +17,27 @@ h3, h4 {
     font-weight: 100;
 }
 
-/* Navbar */
-.navbar {
-    background-color: white !important;
-    padding: 5% 12% 0 14%;
-    text-align: right;
-    padding-top: 30px;
+img {
+    width: 100%;
+    margin: 3% auto;
+    border-radius: 20px;
 }
 
-a.navbar-brand {
-    font-size: 1.2rem;
-    font-weight: 500;
-    letter-spacing: .1rem;
-    padding: 0 5px;
-    border-radius: 5px;
-    background: -webkit-linear-gradient(45deg, #ff005c, #ffc93c);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+/* Navbar */
+.navbar {
+    background-color: #2e2d2d !important;
+    padding: 0 20%;
+    text-align: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
-    height: 150px;
-    width: 150px;
+    height: 60px;
+    width: 60px;
 }
 
 .nav-link{
-    color: black !important;
+    color: white !important;
     font-size: 1.1rem;
     font-weight: 200;
     margin-left: 50px;
@@ -48,44 +45,44 @@ a.navbar-brand {
 
 .nav-link:hover {
     border-radius: 5px;
+    color: white !important;
 }
 
-.green-link:hover {
-    background-color: #53cd92;
+.pink-text {
+    color: #fd3a69!important;
 }
 
-.green-text {
-    color: #53cd92 !important;
+.blue-text {
+    color: #05dfd7 !important;
 }
 
-.green-text:hover {
-    color: black !important;
-    background-color: #53cd92;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.yellow-text {
+    color: #fecd1a !important;
 }
 
-.blue:hover {
-    background-color: #49ddf7;
-}
-
-.orange:hover {
-    background-color: #f7c7a7;
-}
 
 /* home page heading */
 .heading {
-    padding: 6% 7% 0 14%;
+    padding: 8% 20%;
 }
 
 .left {
     text-align: left;
 }
 
-.green {
-    background-color: #53cd92;
+.pink {
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: white;
+    background-color: #fd3a69;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+}
+
+.pink:hover {
+    background-color: transparent;
+    -webkit-text-stroke: .1px #fd3a69;
+    -webkit-text-fill-color: #fd3a69;
+    box-shadow: none; 
 }
 .outline {
     -webkit-text-stroke: 2px black;
@@ -98,48 +95,70 @@ a.navbar-brand {
     border-radius: 10px;
 }
 
-.outline-hover:hover {
-    background-color: transparent;
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: #53cd92;
-    box-shadow: none;
-}
-
 .yellow:hover {
-    background-color: #fff9b0;
+    background-color: #fae188;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.pink:hover {
-    background-color: #fcb4e4;
+.blue:hover {
+    background-color: #05dfd7 ;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a.outline-link {
-    color: rgb(20, 20, 20);
     text-decoration: none;
-}
-
-.cross-out {
-    text-decoration: line-through;
-}
-
-.writing {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 2rem;
 }
 
 .typeit {
     padding-top: 7%;
 }
 
+/* arrows section */
 .arrow {
     text-align: center;
-    padding: 10% 20% 10%;
+    padding: 0 20% 10%;
+}
+.arrows {
+    padding: 10px;
+}
+
+.pink-arrow {
+    color: #fd3a69;  
+}
+
+.blue-arrow {
+    color: #05dfd7;
+}
+
+.yellow-arrow {
+    color: #fecd1a;
 }
 
 /* Work section */
 .recent-work {
-    padding: 0 11% 0 15%;
+    padding: 0 21%;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+    background-color: #2e2d2d;
+    margin-top: 30px;
+}
+
+.white {
+    padding: 30px 20px 20px;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    font-size: .8rem;
+    font-weight: 100;
+    padding: 20px 0 10px;
+}
+
+.copyright-sign {
+    font-weight: 400;
 }
 

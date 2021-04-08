@@ -5,8 +5,12 @@ body {
     padding-top: 75px;
 }
 
+button {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: .1rem;
@@ -26,7 +30,7 @@ img {
 /* Navbar */
 .navbar {
     background-color: #2e2d2d !important;
-    padding: 0 20%;
+    padding: 0 26% 0 22%;
     text-align: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -44,26 +48,25 @@ img {
 }
 
 .nav-link:hover {
-    border-radius: 5px;
-    color: white !important;
+    
 }
 
-.pink-text {
+.pink-text:hover {
     color: #fd3a69!important;
 }
 
-.blue-text {
+.blue-text:hover {
     color: #05dfd7 !important;
 }
 
-.yellow-text {
+.yellow-text:hover {
     color: #fecd1a !important;
 }
 
 
 /* home page heading */
 .heading {
-    padding: 8% 20% 6%;
+    padding: 8% 20% 6% 22%;
 }
 
 .left {
@@ -136,11 +139,19 @@ a.outline-link {
 
 /* Work section */
 .work {
-    padding: 0 21%;
+    padding: 0 23%;
+    
 }
 
 .recent-work {
     padding-bottom: 3%;
+}
+
+.project {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #222122;
+    margin-top: 3%;
 }
 
 /* footer section */

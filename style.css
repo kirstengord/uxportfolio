@@ -148,3 +148,15 @@ footer {
     font-weight: 400;
 }
 
+/* about page */
+.about-heading {
+    padding: 5% 22% 2%
+}
+.bio {
+    padding: 3% 22%;
+}
+
+.about-img {
+    width: 40%;
+}
+

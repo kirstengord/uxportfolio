@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <!-- Default image social media links -->
+        <meta property="og:image" content="https://kirstengord.github.io/portfolio2/social-image.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="1024">
+        <meta property="og:image:height" content="1024">
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kirstengord.github.io/portfolio2/">
+        <meta property="og:title" content="Kirsten Gord - UX Engineer" />
+        <meta property="og:description" content="I create better experiences for people." />
+        <title>Kirsten Gord</title>
+        <!-- Bootstrap link -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- style.css link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- link to favicon image -->
+        <link rel="icon" href="favicon.ico">
+        <!-- Google Fonts link -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+    </head>
+
+    <header>
+        <!-- Bootstrap navbar -->
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-light">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo3.png" alt="Kirsten-Gord-Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">WORK</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link green" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+            </div>
+        </nav>
+    </header> 
+
+    <body>
+        <div class="about-heading container-fluid">
+            <h1 id="typeitAbout"></h1>
+            <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+            <script>
+                new TypeIt('#typeitAbout', {
+                strings: "A little bit about me..."
+                }).go();
+            </script>
+        </div>
+        <div class="bio container-fluid">
+            <p class="text-wrap"><img class="about-img float-left mr-2 mb-1" src="images/kirsten.png" alt="image-of-Kirsten"> I'm a designer, developer and mum of two living in Sheffield, UK. I'm passionate about empowering others through design and technology. I love learnng and I try to teach myself something new everyday.<br><br>I learned design through Google's UX Professional course and I'm a self taught web developer. I owe my success to the 100 Days of Code challenge which took me from no coding experience to freelance web designer/developer in 100 days. Learning UX design helped to round out my skills. I really enjoy working on products end to end, from design and ideation through to development.<br><br>Other fun facts...<br><br>I love to cook.<br>I'm an avid tea drinker and chocoholic.<br>I play guitar<br>I'm obsessed with all things Harry Potter.</p>
+        </div>
+        
+        <footer id="contact">
+            <div class="footer container-fluid">
+              <a href="mailto:kirstengorddesign@gmail.com" target="_blank"><i class="white far fa-envelope fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/kirstengord/" target="_blank"><i class="white fab fa-linkedin-in fa-2x"></i></a>
+              <a href="https://twitter.com/KirstenGord" target="_blank"><i class="white fab fa-twitter fa-2x"></i></a>
+              <a href="https://github.com/kirstengord" target="_blank"><i class="white fab fa-github fa-2x"></i></a>
+              <a href="https://www.figma.com/@kirstengord" target="_blank"><i class="white fab fa-figma fa-2x"></i></a>
+              <a href="https://medium.com/@kirstengord" target="_blank"><i class="white fab fa-medium-m fa-2x"></i></a>
+            </div>
+            <p class="copyright"><span class="copyright-sign">©</span> 2021 by Kirsten Gord ♡</p>
+        </footer>
+     
+        <!-- Javascript for Bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- TypeitJS script -->
+        <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+        <script src="script.js"></script>
+    
+    </body>
+</html>

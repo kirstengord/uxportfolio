@@ -11,3 +11,9 @@ new TypeIt("#typeit", {
     .delete(-5)
     .type('people.')
     .go();
+
+// new TypeIt("#typeitAbout", {
+//     strings: "A little bit about me...",
+//     speed: 50,
+//     waitUntilVisible: true
+//     }).go();

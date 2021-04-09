@@ -19,18 +19,16 @@ h1 {
     font-size: 3rem;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 300
 }
 
 h4 {
     font-size: 1.1rem;
-}
-
-h3, h4 {
     font-weight: 200;
 }
 
@@ -43,7 +41,7 @@ img {
 /* Navbar */
 .navbar {
     background-color: #292828 !important;
-    padding: 0 22%;
+    padding: 0 18%;
     text-align: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -75,12 +73,19 @@ img {
 
 /* home page heading */
 .heading {
-    padding: 8% 15% 6% 21%;
+    padding: 8% 18% 6%;
 }
 
-.left {
-    text-align: left;
+.heading-text {
+    background-color:#292828;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
+
 
 .green-script {
     color: #12A18B;
@@ -89,7 +94,7 @@ img {
 }
 
 .green-script:hover {
-   color: black;
+   color: #4cebd3;
 }
 
 .bold {
@@ -110,7 +115,7 @@ a.outline-link {
 
 /* Work section */
 .work {
-    padding: 0 22%;
+    padding: 0 19%;
     
 }
 
@@ -150,13 +155,55 @@ footer {
 
 /* about page */
 .about-heading {
-    padding: 5% 22% 2%
-}
-.bio {
-    padding: 3% 22%;
+    padding: 5% 18% 2%
 }
 
-.about-img {
-    width: 40%;
+.bio {
+    padding: 3% 18% 1%;
 }
+
+.about-text {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.about-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 35%;
+    margin: 0 25px 10px 0;
+}
+
+.resume {
+   padding-left: 18%;
+}
+
+.BUTTON_LDK {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 1.1rem;
+    font-weight: 200;
+    padding: 10px 15px;
+    background-color: #12A18B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #12A188 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ 
+.BUTTON_LDK:hover {
+    background: #4CF2D8;
+    color: #222121;
+    border: solid #12A18B 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
 

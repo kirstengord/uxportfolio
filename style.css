@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Salazur;
+    src: url('Salazur-L38n5.otf');
+}
+
 body {
     color: #2e2d2d;
     font-family: 'Poppins', sans-serif;
@@ -6,19 +11,27 @@ body {
 }
 
 button {
+    color: white !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
-    font-size: 3.5rem;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: .1rem;
 }
 
-h3, h4 {
+h3 {
     font-size: 1.5rem;
-    font-weight: 100;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h3, h4 {
+    font-weight: 200;
 }
 
 img {
@@ -29,84 +42,63 @@ img {
 
 /* Navbar */
 .navbar {
-    background-color: #2e2d2d !important;
-    padding: 0 26% 0 22%;
+    background-color: #292828 !important;
+    padding: 0 22%;
     text-align: right;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
     height: 60px;
-    width: 60px;
+    width: 75px;
 }
 
-.nav-link{
+.nav-link {
     color: white !important;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 200;
     margin-left: 50px;
 }
 
 .nav-link:hover {
-    
+    color: #12A18B !important;
 }
 
-.pink-text:hover {
-    color: #fd3a69!important;
+.green {
+    color: #12A18B !important;
 }
 
-.blue-text:hover {
-    color: #05dfd7 !important;
-}
-
-.yellow-text:hover {
-    color: #fecd1a !important;
+.nav-link.green:hover {
+    color: white !important;
 }
 
 
 /* home page heading */
 .heading {
-    padding: 8% 20% 6% 22%;
+    padding: 8% 15% 6% 21%;
 }
 
 .left {
     text-align: left;
 }
 
-.pink {
-    /* color: #fd3a69; */
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: #fd3a69
-    /* background-color: #fd3a69;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+.green-script {
+    color: #12A18B;
+    font-family: Salazur;
+    font-size: 4.2rem;
 }
 
-.pink:hover {
-    background-color: transparent;
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: transparent;
-    box-shadow: none; 
-}
-.outline {
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: transparent;
+.green-script:hover {
+   color: black;
 }
 
-.outline:hover {
-    -webkit-text-stroke: 2px black;
-    -webkit-text-fill-color: #05dfd7;
+.bold {
+    font-weight: 500;
 }
 
-/* .yellow:hover {
-    background-color: #fae188;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.extra-bold {
+    font-weight: 600;
 }
-
-.blue:hover {
-    background-color: #05dfd7 ;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
 
 a.outline-link {
     text-decoration: none;
@@ -116,35 +108,14 @@ a.outline-link {
     padding-top: 7%;
 }
 
-/* arrows section */
-.arrow {
-    text-align: center;
-    padding: 0 20% 10%;
-}
-.arrows {
-    padding: 10px;
-}
-
-.pink-arrow {
-    color: #fd3a69;  
-}
-
-.blue-arrow {
-    color: #05dfd7;
-}
-
-.yellow-arrow {
-    color: #fecd1a;
-}
-
 /* Work section */
 .work {
-    padding: 0 23%;
+    padding: 0 22%;
     
 }
 
 .recent-work {
-    padding-bottom: 3%;
+    padding-bottom: 1%;
 }
 
 .project {

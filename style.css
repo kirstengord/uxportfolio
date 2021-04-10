@@ -208,7 +208,7 @@ footer {
  }
 
  /* media queries */
-@media (max-width: 411px) {
+@media (max-width: 414px) {
     /* homepage */
     .logo {
         height: 40px;

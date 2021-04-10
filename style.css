@@ -75,11 +75,11 @@ img {
     padding: 8% 0% 10% 17%;
 }
 
-.heading-text {
+/* .heading-text {
     color: #292828;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} */
 
 .green-script {
     color: #12A18B;
@@ -216,15 +216,16 @@ footer {
     }
 
     .navbar {
-        padding: 0 3%;
+        padding: 0 1%;
     }
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         letter-spacing: normal;
     } 
 
     .heading {
         padding: 2% 0% 15% 0%;
+        text-align: center;
     }
     
     .green-script {
@@ -232,7 +233,7 @@ footer {
     }
 
     .hi {
-        font-size: 2.5rem;
+        font-size: 2.7rem;
     }
 
     .name {

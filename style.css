@@ -166,7 +166,7 @@ footer {
     margin: 0 25px 10px 0;
 }
 
-.resume {
+.cv {
    padding-left: 18%;
 }
 
@@ -178,7 +178,7 @@ footer {
     font-family: Poppins;
     font-size: 1.1rem;
     font-weight: 200;
-    padding: 10px 15px;
+    padding: 10px 40px;
     background-color: #12A18B;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-shadow: 1px 1px 20px #000000;
@@ -188,6 +188,7 @@ footer {
     cursor: pointer;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 15px;
  }
  
  
@@ -210,24 +211,24 @@ footer {
     }
 
     .navbar {
-        padding: 0 1%;
+        padding: 0 2%;
     }
+
     h1 {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         letter-spacing: normal;
     } 
 
     .heading {
         padding: 2% 0% 15% 0%;
-        text-align: center;
     }
     
     .green-script {
-        font-size: 3.2rem;
+        font-size: 3.5rem;
     }
 
     .hi {
-        font-size: 2.7rem;
+        font-size: 3rem;
     }
 
     .name {
@@ -235,7 +236,7 @@ footer {
     }
 
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     img {
@@ -253,7 +254,10 @@ footer {
     /* about page */
     .about-heading {
         padding: 5% 3%;
-        text-align: center;
+    }
+
+    .typeit-about {
+        font-size: 2rem;
     }
 
     .about-img {
@@ -270,7 +274,7 @@ footer {
         font-size: 1rem;
     }
 
-    .resume {
+    .cv {
         padding-left: 4%;
         padding-bottom: 3%;
      }

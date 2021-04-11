@@ -15,7 +15,7 @@ button {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: .2rem;
@@ -72,7 +72,7 @@ img {
 
 /* home page heading */
 .heading {
-    padding: 8% 0% 10% 17%;
+    padding: 8% 17% 10% 17%;
 }
 
 .heading-text {
@@ -84,7 +84,7 @@ img {
 .green-script {
     color: #12A18B;
     font-family: Salazur;
-    font-size: 4.5rem;
+    font-size: 5rem;
 }
 
 .green-script:hover {
@@ -152,7 +152,11 @@ footer {
 
 /* about page */
 .about-heading {
-    padding: 5% 18% 2%
+    padding: 5% 18% 2%;
+}
+
+.typeit-about {
+    font-size: 3.2rem;
 }
 
 .bio {
@@ -207,7 +211,64 @@ footer {
  }
 
  /* media queries */
-@media (max-width: 414px) {
+@media (min-width: 1140px) {
+    .navbar {
+        padding: 0 21%;
+    }
+
+    .heading {
+        padding: 8% 21% 10% 20%;
+        text-align: center;
+    }
+
+    .work {
+        padding: 0 21%;
+    }
+
+    .about-heading {
+        padding: 5% 21% 2%;
+    }
+
+    .bio {
+        padding: 3% 21% 1%;
+    }
+
+    .cv {
+        padding-left: 21%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 980px) {
+    .navbar {
+        padding: 0 8%;
+    }
+
+    .heading {
+        padding: 8% 7% 10%;
+    }
+
+    .work {
+        padding: 0 8%;
+    }
+
+    .about-heading {
+        padding: 5% 8% 2%;
+    }
+
+    .typeit-about {
+        font-size: 3.3rem;
+    }
+
+    .bio {
+        padding: 3% 8% 1%;
+    }
+
+    .cv {
+        padding-left: 8%;
+    }
+}
+
+@media (max-width: 768px) {
     /* homepage */
     .logo {
         height: 40px;
@@ -225,6 +286,7 @@ footer {
 
     .heading {
         padding: 8% 0% 15% 0%;
+        text-align: center;
     }
 
     .heading-text {
@@ -265,6 +327,36 @@ footer {
         padding: 5% 3%;
     }
 
+    .bio {
+        padding: 3% 5% 1%;
+    }
+
+    .about-text {
+        font-size: 1.2rem;
+        line-height: 1.7;
+    }
+
+    .facts {
+        font-size: 1.2rem;
+    }
+
+    .cv {
+        padding-left: 4%;
+        padding-bottom: 3%;
+     }
+}
+
+@media (min-width: 414px) and (max-width: 768px) {
+    .typeit-about {
+        font-size: 2.5rem;
+    }
+
+    .about-img {
+        width: 40%;
+    }
+}
+
+ @media (max-width: 414px) {
     .typeit-about {
         font-size: 2rem;
     }
@@ -273,23 +365,7 @@ footer {
         width: 90%;
         margin-left: 15px;
         margin-bottom: 15px !important;
-    }
-
-    .bio {
-        padding: 3% 5% 1%;
-    }
-
-    .about-text {
-        font-size: 1rem;
-    }
-
-    .cv {
-        padding-left: 4%;
-        padding-bottom: 3%;
-     }
-
-     .facts {
-         font-size: .9rem;
-     }
+    }  
 }
+
 

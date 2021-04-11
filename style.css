@@ -346,7 +346,7 @@ footer {
      }
 }
 
-@media (min-width: 414px) and (max-width: 768px) {
+@media (min-width: 415px) and (max-width: 768px) {
     .typeit-about {
         font-size: 2.5rem;
     }

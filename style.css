@@ -3,6 +3,11 @@
     src: url('Salazur-L38n5.otf');
 }
 
+@font-face {
+    font-family: Shakies;
+    src: url('Shakies-PK3Pm.otf');
+}
+
 body {
     color: #2e2d2d;
     font-family: 'Poppins', sans-serif;
@@ -23,7 +28,7 @@ h1 {
 
 h3 {
     font-size: 2rem;
-    font-weight: 300
+    font-weight: 300;
 }
 
 h4 {
@@ -46,7 +51,7 @@ img {
 }
 
 .logo {
-    height: 60px;
+    height: 75px;
     width: 75px;
 }
 
@@ -83,7 +88,7 @@ img {
 
 .green-script {
     color: #12A18B;
-    font-family: Salazur;
+    font-family: Poppins;
     font-size: 5rem;
 }
 
@@ -98,6 +103,7 @@ img {
 
 .extra-bold {
     font-weight: 600;
+    color: #12A18B;
 }
 
 a.outline-link {

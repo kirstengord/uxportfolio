@@ -88,8 +88,8 @@ img {
 
 .green-script {
     color: #12A18B;
-    font-family: Poppins;
-    font-size: 5rem;
+    font-family: Salazur;
+    font-size: 5.2rem;
 }
 
 .green-script:hover {
@@ -277,7 +277,7 @@ footer {
 @media (max-width: 768px) {
     /* homepage */
     .logo {
-        height: 40px;
+        height: 55px;
         width: 55px;
     }
 
@@ -292,7 +292,7 @@ footer {
 
     .heading {
         padding: 8% 0% 15% 0%;
-        text-align: center;
+        text-align: left;
     }
 
     .heading-text {

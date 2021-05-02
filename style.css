@@ -216,6 +216,56 @@ footer {
     text-decoration: none;
  }
 
+ /* Proposal page */
+ body.proposal-body {
+     text-align: center;
+ }
+
+ .typeit-proposal {
+     font-size: 3.2rem;
+ }
+
+ .proposal-big-heading {
+     padding: 5% 0 2%;
+ }
+
+ .company {
+     font-size: 2.5rem;
+ }
+
+ .prepared {
+     font-size: 1rem;
+ }
+
+ .proposal-prepared {
+     padding: 2% 0;
+ }
+
+ .problem-statement {
+     text-align: left;
+     padding: 1%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     width: 60%;
+     background-color: #212121;
+     color: white;
+     border-radius: 20px;
+     margin-bottom: 2%;
+ }
+
+ li {
+     padding-top: 2%;
+     padding-right: 2%;
+ }
+
+ .greeting {
+     width: 75%;
+ }
+
+ .proposal-button {
+     padding: 10px 20px;
+     margin: 10px 40px;
+ }
+
  /* media queries */
 @media (min-width: 1140px) {
     .navbar {
@@ -350,6 +400,11 @@ footer {
         padding-left: 4%;
         padding-bottom: 3%;
      }
+
+     .problem-statement {
+         width: 75%;
+         margin-bottom: 5%;
+     }
 }
 
 @media (min-width: 415px) and (max-width: 768px) {
@@ -371,7 +426,19 @@ footer {
         width: 90%;
         margin-left: 15px;
         margin-bottom: 15px !important;
-    }  
+    } 
+    
+    .typeit-proposal {
+        font-size: 2rem;
+    }
+
+    .company {
+        font-size: 1.8rem;
+    }
+
+    .greeting {
+        width: 85%;
+    }
 }
 
 

@@ -145,6 +145,14 @@ footer {
     color: white;
 }
 
+.available {
+    padding-top: 5%;
+}
+
+.contact {
+    font-size: 1.3rem;
+}
+
 .copyright {
     color: white;
     font-size: .8rem;

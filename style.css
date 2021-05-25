@@ -130,7 +130,7 @@ a.outline-link {
 
 /* Work section */
 .work {
-    padding: 0 18%;
+    padding: 0 20%;
     
 }
 
@@ -326,7 +326,7 @@ footer {
     }
 
     .work {
-        padding: 0 25%;
+        padding: 0 20%;
     }
 
     .about-heading {
@@ -425,16 +425,13 @@ footer {
      }
 }
 @media (min-width: 768px) and (max-width: 980px) {
-    .navbar {
-        padding: 0 8%;
-    }
-
+   
     .heading {
         padding: 8% 0 10% 10%;
     }
 
     .work {
-        padding: 0 8%;
+        padding: 0 10%;
     }
 
     .about-heading {

@@ -130,7 +130,7 @@ a.outline-link {
 
 /* Work section */
 .work {
-    padding: 0 20%;
+    padding: 2% 20% 0;
     
 }
 
@@ -159,7 +159,6 @@ footer {
 }
 
 .white {
-    padding: 30px 20px 20px;
     color: white;
 }
 
@@ -169,6 +168,7 @@ footer {
 
 .contact {
     font-size: 1.3rem;
+    padding: 2%;
 }
 
 .email {
@@ -177,6 +177,10 @@ footer {
 
 .email:hover {
     color: white;
+}
+
+.icon {
+    padding: 30px 20px 20px;
 }
 
 .icon:hover {
@@ -256,10 +260,32 @@ footer {
 
  /* Texicana Case Study page */
  .tex-hero-img {
-     padding: 5% 20% 0;
+     background-color: #292828;
+     text-align: center;
+     margin: 5% 0 0;
  }
 
- h1.typeit-texicana {
+ .texicana-mockups {
+     width: 50%; 
+     padding-left: 5%; 
+ }
+
+ .texicana-heading {
+     padding: 12% 0 0 7%;
+     text-align: left;
+ }
+
+ .texicana-title {
+     font-family: 'Dosis', sans-serif;
+ }
+
+ .texicana-subtitle {
+     font-weight: 200;
+     font-size: 1.5rem;
+     padding-left: 2%;
+ }
+
+.typeit-texicana {
      font-size: 2rem;
      padding: 5% 10% 5% 20%;
  }

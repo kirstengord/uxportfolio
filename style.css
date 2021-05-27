@@ -499,6 +499,15 @@ footer {
 }
 
  @media (max-width: 414px) {
+
+    .outline {
+        -webkit-text-stroke-width: 1px;
+      }
+    
+      .outline:hover {
+        -webkit-text-stroke-width: 1px;
+      }
+
     .typeit-about {
         font-size: 2rem;
     }

@@ -150,7 +150,7 @@ a.outline-link {
 /* footer section */
 footer {
     text-align: center;
-    background-color: #2e2d2d;
+    background-color: #292828;
     margin-top: 30px;
 }
 
@@ -260,35 +260,107 @@ footer {
 
  /* Texicana Case Study page */
  .tex-hero-img {
-     background-color: #292828;
      text-align: center;
      margin: 5% 0 0;
  }
 
  .texicana-mockups {
      width: 85%;
-     padding: 8% 0; 
+     
  }
 
  .texicana-heading {
-     padding: 10% 0 8%;
+     padding: 5% 0 0;
      
  }
 
  .texicana-title {
      font-family: 'Dosis', sans-serif;
+     color: #CF2B4E;
  }
 
  .texicana-subtitle {
      font-weight: 200;
      font-size: 1.5rem;
      padding-left: 2%;
+     color: #CF2B4E;
  }
 
 .typeit-texicana {
      font-size: 2rem;
      padding: 5% 10% 5% 20%;
  }
+
+ .process {
+     text-align: center;
+    
+ }
+
+ .casestudy-heading {
+     background-color: #292828;
+ }
+
+.cs-heading {
+    padding: 3% 0;
+    font-size: 3rem;
+}
+
+.overview {
+    padding: 5% 0;
+}
+
+.overview-item {
+    padding: 2%;
+}
+
+.blue {
+    color:#1a8089;
+}
+
+.carousel {
+    padding: 5% 0;
+}
+
+ .carousel-img {
+     width: 40%;
+ }
+
+ .control {
+     color:#292828;
+ }
+
+ .control:hover {
+     color: #292828;
+ }
+
+ .texicana-button {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#1a8089;
+	border-radius:10px;
+	border:1px solid #1a8089;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:12px 19px;
+	text-decoration:none;
+	
+}
+.texicana-button:hover {
+	background-color:white;
+    color: #1a8089;
+    text-decoration: none;
+}
+.texicana-button:active {
+	position:relative;
+	top:1px;
+}
+
+.prototype-button {
+    text-align: center;
+}
 
  /* Proposal page */
  body.proposal-body {
@@ -452,6 +524,10 @@ footer {
 
     .texicana-heading {
         padding: 5% 0 0;
+    }
+
+    .carousel-img {
+        width: 60%;
     }
 
      .problem-statement {

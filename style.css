@@ -259,12 +259,12 @@ footer {
  }
 
  /* Texicana Case Study page */
- .tex-hero-img {
+ .hero {
      text-align: center;
      margin: 5% 0 0;
  }
 
- .texicana-mockups {
+ .mockup {
      width: 85%;
      
  }
@@ -286,10 +286,6 @@ footer {
      color: black;
  }
 
-.typeit-texicana {
-     font-size: 2rem;
-     padding: 5% 10% 5% 20%;
- }
 
  .process {
      text-align: center;
@@ -390,6 +386,87 @@ footer {
 
 .center-button {
     text-align: center;
+}
+
+/* Chuck portfolio page */
+.chuck-heading {
+    text-align: center;
+}
+.chuck-title {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.chuck-mockup {
+    width: 50%;
+}
+
+.chuck-description {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 3% 10%;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.chuck-img {
+    border: solid 1px black;
+}
+
+.chuckdesign-button {
+	box-shadow: 0px 10px 14px -7px #09554a;
+	background-color:#12A18B;
+	border-radius:10px;
+	border:1px solid #12A18B;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	font-weight:400;
+	padding:12px 26px;
+	text-decoration:none;
+	
+}
+.chuckdesign-button:hover {
+	background-color:#08352e;
+    color: white;
+    text-decoration: none;
+}
+.chuckdesign-button:active {
+	position:relative;
+	top:1px;
+}
+
+.chuckportfolio-button {
+	box-shadow: 0px 10px 14px -7px #09554a;
+	background-color:white;
+	border-radius:10px;
+	border:1px solid #12A18B;
+	display:inline-block;
+	cursor:pointer;
+	color:#12A18B;
+	font-family: 'Poppins', sans-serif;
+	font-size:16px;
+	font-weight:400;
+	padding:12px 19px;
+	text-decoration:none;
+	
+}
+.chuckportfolio-button:hover {
+	background-color:#08352e;
+    color: white;
+    text-decoration: none;
+}
+.chuckportfolio-button:active {
+	position:relative;
+	top:1px;
+}
+
+.chuckdesign-button, .chuckportfolio-button {
+    margin: 10px 30px 30px;
 }
 
  /* Proposal page */
@@ -563,6 +640,8 @@ footer {
     .carousel-control-next, .carousel-control-prev {
         width: 2%;
     }
+
+    
 
      .problem-statement {
          width: 75%;

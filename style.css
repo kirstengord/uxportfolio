@@ -390,6 +390,7 @@ footer {
 }
 
 /* Chuck portfolio page */
+
 .chuck-heading {
     text-align: center;
 }
@@ -435,6 +436,16 @@ img.chuck-img {
 
 .card {
     margin: 4% 0 2%;
+}
+
+.card-deck {
+    padding-bottom: 3%;
+}
+
+.locations-img {
+    margin-top: 2%;
+    border: solid 1px black;
+    border-radius: 0;
 }
 
 div.container-fluid.row {
@@ -493,6 +504,14 @@ div.container-fluid.row {
 
 .chuckdesign-button, .chuckportfolio-button {
     margin: 10px 30px 30px;
+}
+
+.left-button {
+    text-align: left;
+}
+
+.right-button {
+    text-align: right;
 }
 
  /* Proposal page */
@@ -667,7 +686,13 @@ div.container-fluid.row {
         width: 2%;
     }
 
-    
+    .chuck-mockup {
+        width: 75%;
+    }
+
+    .left-button, .right-button {
+        text-align: center;
+    }
 
      .problem-statement {
          width: 75%;

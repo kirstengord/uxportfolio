@@ -421,8 +421,24 @@ img.chuck-img {
     border: solid 1px black;
 }
 
+.overview-chuck {
+    padding: 5% 0 0;
+}
+
+hr {
+   border-top: 2px solid #282929; 
+}
+
+.solution-chuck {
+    padding-top: 5%;
+}
+
+.problem-chuck {
+    padding-top: 2%;
+}
+
 .problem-statement2 {
-    padding: 5% 5% 0;
+    padding: 0% 5% 5%;
 }
 
 .problem-title {
@@ -431,11 +447,13 @@ img.chuck-img {
 }
 
 .problem-text {
-    font-size: 1.5rem;
+    padding-top: 1%;
+    font-size: 1.2rem;
 }
 
 .card {
     margin: 4% 0 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-deck {
@@ -512,6 +530,11 @@ div.container-fluid.row {
 
 .right-button {
     text-align: right;
+}
+
+/* wiin page */
+.wiin-heading {
+    padding: 5% 10% 2%;
 }
 
  /* Proposal page */

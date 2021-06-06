@@ -537,6 +537,10 @@ div.container-fluid.row {
     padding: 5% 10% 2%;
 }
 
+.how-might {
+    font-size: 1.4rem;
+}
+
  /* Proposal page */
  body.proposal-body {
      text-align: center;

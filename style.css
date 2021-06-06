@@ -541,6 +541,18 @@ div.container-fluid.row {
     font-size: 1.4rem;
 }
 
+/* daily ui page */
+.daily-ui-heading {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.subtitle {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: black;
+}
+
  /* Proposal page */
  body.proposal-body {
      text-align: center;

@@ -418,7 +418,7 @@ footer {
 
 img.chuck-img {
     margin: 0;
-    border: solid 1px black;
+    border-top: solid 1px black;
 }
 
 .overview-chuck {

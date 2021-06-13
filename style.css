@@ -319,7 +319,7 @@ footer {
 }
 
  .carousel-img {
-     width: 65%;
+     width: 80%;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
@@ -537,6 +537,13 @@ div.container-fluid.row {
     padding: 5% 10% 2%;
 }
 
+.wiin-black {
+    color: #292828;
+}
+
+.wiin-blue {
+    color: #0876DD;
+}
 .how-might {
     font-size: 1.4rem;
 }

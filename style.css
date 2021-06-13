@@ -37,6 +37,11 @@ h4 {
     font-weight: 200;
 }
 
+hr {
+    border-top: 2px solid #282929; 
+    padding: 3% 0
+ }
+
 img {
     width: 100%;
     margin: 3% auto;
@@ -425,10 +430,6 @@ img.chuck-img {
     padding: 5% 0 0;
 }
 
-hr {
-   border-top: 2px solid #282929; 
-}
-
 .solution-chuck {
     padding-top: 5%;
 }
@@ -537,6 +538,11 @@ div.container-fluid.row {
     padding: 5% 10% 2%;
 }
 
+.wiin-hero {
+    width: 80%;
+    margin-bottom: 5%;
+}
+
 .wiin-black {
     color: #292828;
 }
@@ -558,6 +564,7 @@ div.container-fluid.row {
     font-weight: 200;
     font-size: 1.5rem;
     color: black;
+    padding-bottom: 3%;
 }
 
  /* Proposal page */

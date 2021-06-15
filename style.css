@@ -39,7 +39,7 @@ h4 {
 
 hr {
     border-top: 2px solid #282929; 
-    padding: 3% 0
+    margin: 3% 0
  }
 
 img {
@@ -68,8 +68,12 @@ img {
     margin-left: 50px;
 }
 
-.nav-link:hover {
+.home.nav-link:hover {
     color: #12A18B !important;
+}
+
+.tex.nav-link:hover {
+    color: #cf2b4e !important;
 }
 
 .green {
@@ -317,6 +321,29 @@ footer {
 
 .blue {
     color:#1a8089;
+}
+
+.light-blue {
+    color: #21A0AB !important;
+}
+
+.light-blue:hover {
+    color: #CF2B4E !important;
+}
+
+.hypothesis {
+    padding: 3% 10%;
+}
+
+.interviews {
+    padding: 4% 3% 0;
+}
+
+.blue-section {
+    background-color: #1a8089;
+    color: white;
+    padding: 1% 0 .75%;
+    margin-top: 3%;
 }
 
 .carousel {

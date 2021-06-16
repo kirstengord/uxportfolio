@@ -22,7 +22,7 @@ button {
 
 h1 {
     font-size: 4.5rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: .2rem;
 }
@@ -346,22 +346,20 @@ footer {
     margin-top: 3%;
 }
 
-.carousel {
-    padding-bottom: 3%;
+.georgina-div {
+    padding: 2% 0;
 }
 
- .carousel-img {
-     width: 80%;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
+.georgina{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
- .control {
-     color:#292828;
- }
-
- .control:hover {
-     color: #292828;
- }
+.georgina-quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
 
  .texicana-button {
 	box-shadow: 0px 10px 14px -7px #276873;

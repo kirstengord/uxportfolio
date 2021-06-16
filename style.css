@@ -193,8 +193,12 @@ footer {
     padding: 30px 20px 20px;
 }
 
-.icon:hover {
+.icon-green:hover {
     color: #12A18B;
+}
+
+.icon-pink:hover {
+    color: #CF2B4E;
 }
 
 .copyright {

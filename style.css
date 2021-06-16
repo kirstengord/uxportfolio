@@ -48,6 +48,10 @@ img {
     border-radius: 20px;
 }
 
+iframe {
+    width: 80%;
+}
+
 /* Navbar */
 .navbar {
     background-color: #292828 !important;

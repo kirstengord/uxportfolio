@@ -48,6 +48,10 @@ img {
     border-radius: 20px;
 }
 
+iframe {
+    border-radius: 20px;
+}
+
 .pink {
     color: #CF2B4E;
 }
@@ -320,11 +324,15 @@ footer {
 }
 
 .overview {
-    padding: 5% 0;
+    padding: 5% 0 0;
 }
 
 .overview-item {
     padding: 2%;
+}
+
+.problem-tex {
+    padding-bottom: 3%;
 }
 
 .blue {
@@ -351,7 +359,8 @@ footer {
     background-color: #1a8089;
     color: white;
     padding: 1.5% 0 .75%;
-    margin: 3% auto;
+    margin: 5% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sub-heading {
@@ -362,6 +371,8 @@ footer {
     background-color: #CF2B4E;
     color: white;
     margin: 3% auto;
+    padding: 1.5% 0 .75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .tex-prompt {
@@ -380,7 +391,7 @@ footer {
 }
 
 .meet-georgina {
-    padding-top: 2%;
+    padding: 5% 0;
 }
 
 .georgina{
@@ -392,20 +403,39 @@ footer {
     font-style: italic;
     font-size: 1.7rem;
     font-weight: 300;
-    padding: 5%;
-    
+    padding: 5% 3%;
 }
-
-
 
 .georgina-bio {
     border-radius: 20px;
     border: solid 2px #CF2B4E;
-    padding: 3% 2%;
+    padding: 5% 1% 4%;
     font-size: 1.2rem;
 }
 
-.user-journey-img img {
+.blue-border {
+    border-radius: 20px;
+    border: solid 2px #1a8089;
+    margin-bottom: 3%;
+}
+
+.persona-pink {
+    background-color: #CF2B4E;
+    color: white;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.persona-blue {
+    background-color: #1a8089;
+    color: white;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 3% auto 3%;
+}
+
+.user-journey-img img{
     border: solid 2px #1a8089;
 }
 

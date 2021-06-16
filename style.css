@@ -48,6 +48,10 @@ img {
     border-radius: 20px;
 }
 
+.pink {
+    color: #CF2B4E;
+}
+
 /* Navbar */
 .navbar {
     background-color: #292828 !important;
@@ -350,6 +354,14 @@ footer {
     margin-top: 3%;
 }
 
+.pain-points {
+    padding-top: 2%; 
+}
+
+.pp-img {
+    height: 50%;
+}
+
 .georgina-div {
     padding: 2% 0;
 }
@@ -361,8 +373,17 @@ footer {
 
 .georgina-quote {
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: 300;
+    padding: 5%;
+    
+}
+
+.georgina-bio {
+    border-radius: 20px;
+    border: solid 2px #CF2B4E;
+    padding: 3% 2%;
+    font-size: 1.2rem;
 }
 
  .texicana-button {

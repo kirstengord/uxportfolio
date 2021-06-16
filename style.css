@@ -350,20 +350,37 @@ footer {
 .blue-section {
     background-color: #1a8089;
     color: white;
-    padding: 1% 0 .75%;
-    margin-top: 3%;
+    padding: 1.5% 0 .75%;
+    margin: 3% auto;
 }
 
+.sub-heading {
+    font-size: 2.5rem;
+}
+
+.pink-section {
+    background-color: #CF2B4E;
+    color: white;
+    margin: 3% auto;
+}
+
+.tex-prompt {
+    padding: 3% 10% 0;
+}
 .pain-points {
     padding-top: 2%; 
 }
 
 .pp-img {
-    height: 50%;
+    max-height: 50%;
 }
 
 .georgina-div {
     padding: 2% 0;
+}
+
+.meet-georgina {
+    padding-top: 2%;
 }
 
 .georgina{
@@ -384,6 +401,10 @@ footer {
     border: solid 2px #CF2B4E;
     padding: 3% 2%;
     font-size: 1.2rem;
+}
+
+.user-journey-img img {
+    border: solid 2px #1a8089;
 }
 
  .texicana-button {

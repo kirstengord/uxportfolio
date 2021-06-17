@@ -49,18 +49,7 @@ img {
     border-radius: 20px;
 }
 
-iframe {
-    border-radius: 20px;
-    width: 85%;
-}
 
-.width-95 {
-    width: 95%;
-}
-
-.pink {
-    color: #CF2B4E;
-}
 
 /* Navbar */
 .navbar {
@@ -714,6 +703,10 @@ div.container-fluid.row {
     font-size: 1.5rem;
     color: black;
     padding-bottom: 3%;
+}
+
+.ui-card-deck {
+    margin: 0 1%;
 }
 
  /* Proposal page */

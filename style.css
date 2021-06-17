@@ -14,6 +14,7 @@ body {
     font-weight:300;
     height: 100vh;
     padding-top: 75px;
+    text-align: center;
 }
 
 button {
@@ -22,7 +23,7 @@ button {
 
 h1 {
     font-size: 4.5rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: .2rem;
 }
@@ -39,7 +40,7 @@ h4 {
 
 hr {
     border-top: 2px solid #282929; 
-    padding: 3% 0
+    margin: 3% 0
  }
 
 img {
@@ -48,9 +49,7 @@ img {
     border-radius: 20px;
 }
 
-iframe {
-    width: 80%;
-}
+
 
 /* Navbar */
 .navbar {
@@ -72,8 +71,12 @@ iframe {
     margin-left: 50px;
 }
 
-.nav-link:hover {
+.home.nav-link:hover {
     color: #12A18B !important;
+}
+
+.tex.nav-link:hover {
+    color: #cf2b4e !important;
 }
 
 .green {
@@ -193,8 +196,12 @@ footer {
     padding: 30px 20px 20px;
 }
 
-.icon:hover {
+.icon-green:hover {
     color: #12A18B;
+}
+
+.icon-pink:hover {
+    color: #CF2B4E;
 }
 
 .copyright {
@@ -297,10 +304,6 @@ footer {
  }
 
 
- .process {
-     text-align: center;
-    
- }
 
  .casestudy-heading {
      background-color: #292828;
@@ -312,33 +315,164 @@ footer {
 }
 
 .overview {
-    padding: 5% 0;
+    padding: 5% 0 0;
 }
 
 .overview-item {
     padding: 2%;
 }
 
+
+
 .blue {
     color:#1a8089;
 }
 
-.carousel {
-    padding-bottom: 3%;
+.light-blue {
+    color: #21A0AB !important;
 }
 
- .carousel-img {
-     width: 80%;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
+.light-blue:hover {
+    color: #CF2B4E !important;
+}
 
- .control {
-     color:#292828;
- }
+.hypothesis {
+    padding: 3% 10%;
+}
 
- .control:hover {
-     color: #292828;
- }
+.interviews {
+    padding: 4% 3% 0;
+}
+
+.blue-section {
+    background-color: #1a8089;
+    color: white;
+    padding: 1.5% 0 .75%;
+    margin: 5% auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.small-heading {
+    font-size: 2rem;
+}
+
+.sub-heading {
+    font-size: 2.5rem;
+}
+
+.padding {
+    padding: 3% 5%;
+}
+
+.padding-mockup {
+    padding: 3% 0 5%;
+}
+
+.padding-mockup2 {
+    padding: 5% 0;
+}
+
+.padding-top {
+    padding-top: 3%;
+}
+
+.competitor-img {
+    width: 80%;
+}
+
+.center {
+    text-align: center;
+}
+
+.pink-section {
+    background-color: #CF2B4E;
+    color: white;
+    margin: 5% auto;
+    padding: 1.5% 0 .75%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tex-prompt {
+    padding: 3% 10% 0;
+}
+.pain-points {
+    padding-top: 2%; 
+}
+
+/* .pp-img {
+    max-height: 50%;
+} */
+
+.georgina-div {
+    padding: 2% 0;
+}
+
+.meet-georgina {
+    padding: 5% 0;
+}
+
+.georgina{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.georgina-quote {
+    font-style: italic;
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding: 5% 3%;
+}
+
+.georgina-bio {
+    border-radius: 20px;
+    border: solid 2px #CF2B4E;
+    padding: 5% 1% 4%;
+    font-size: 1.2rem;
+}
+
+.georgina-sb {
+    width: 90%;
+}
+
+.blue-border {
+    border-radius: 20px;
+    border: solid 2px #1a8089;
+    margin-bottom: 3%;
+}
+
+.pink-border {
+    border: solid 2px #CF2B4E;
+}
+.persona-pink {
+    background-color: #CF2B4E;
+    color: white;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 3%;
+}
+
+.persona-blue {
+    background-color: #1a8089;
+    color: white;
+    border-radius: 20px;
+    padding: 2%;
+    margin: 3% auto 3%;
+}
+
+.user-journey-img img{
+    border: solid 2px #1a8089;
+}
+
+.tex-mockup {
+    width: 75%;
+}
+
+.tex-mockup2 {
+    width: 60%;
+    border: solid 1px black;
+}
+
+
 
  .texicana-button {
 	box-shadow: 0px 10px 14px -7px #276873;

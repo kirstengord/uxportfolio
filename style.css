@@ -14,6 +14,7 @@ body {
     font-weight:300;
     height: 100vh;
     padding-top: 75px;
+    text-align: center;
 }
 
 button {
@@ -309,10 +310,6 @@ footer {
  }
 
 
- .process {
-     text-align: center;
-    
- }
 
  .casestudy-heading {
      background-color: #292828;
@@ -331,9 +328,7 @@ footer {
     padding: 2%;
 }
 
-.problem-tex {
-    padding-bottom: 3%;
-}
+
 
 .blue {
     color:#1a8089;
@@ -363,14 +358,34 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.small-heading {
+    font-size: 2rem;
+}
+
 .sub-heading {
     font-size: 2.5rem;
+}
+
+.padding {
+    padding: 3% 5%;
+}
+
+.padding-top {
+    padding-top: 3%;
+}
+
+.competitor-img {
+    width: 80%;
+}
+
+.center {
+    text-align: center;
 }
 
 .pink-section {
     background-color: #CF2B4E;
     color: white;
-    margin: 3% auto;
+    margin: 5% auto;
     padding: 1.5% 0 .75%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -413,12 +428,19 @@ footer {
     font-size: 1.2rem;
 }
 
+.georgina-sb {
+    width: 90%;
+}
+
 .blue-border {
     border-radius: 20px;
     border: solid 2px #1a8089;
     margin-bottom: 3%;
 }
 
+.pink-border {
+    border: solid 2px #CF2B4E;
+}
 .persona-pink {
     background-color: #CF2B4E;
     color: white;

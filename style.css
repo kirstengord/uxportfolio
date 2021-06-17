@@ -51,6 +51,10 @@ img {
 
 iframe {
     border-radius: 20px;
+    width: 85%;
+}
+
+.width-95 {
     width: 95%;
 }
 
@@ -371,6 +375,14 @@ footer {
     padding: 3% 5%;
 }
 
+.padding-mockup {
+    padding: 3% 0 5%;
+}
+
+.padding-mockup2 {
+    padding: 5% 0;
+}
+
 .padding-top {
     padding-top: 3%;
 }
@@ -398,9 +410,9 @@ footer {
     padding-top: 2%; 
 }
 
-.pp-img {
+/* .pp-img {
     max-height: 50%;
-}
+} */
 
 .georgina-div {
     padding: 2% 0;
@@ -461,6 +473,17 @@ footer {
 .user-journey-img img{
     border: solid 2px #1a8089;
 }
+
+.tex-mockup {
+    width: 75%;
+}
+
+.tex-mockup2 {
+    width: 60%;
+    border: solid 1px black;
+}
+
+
 
  .texicana-button {
 	box-shadow: 0px 10px 14px -7px #276873;

@@ -52,14 +52,19 @@ iframe {
         border-radius: 20px;
         width: 85%;
     }
+ 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.width-95 {
+    width: 95%;
+}
     
-    .width-95 {
-        width: 95%;
-    }
-    
-    .pink {
-        color: #CF2B4E;
-    }
+.pink {
+    color: #CF2B4E;
+}
     
 
 
@@ -418,6 +423,8 @@ footer {
 .pp-img {
     max-height: 50%;
 }
+
+
 
 .georgina-div {
     padding: 2% 0;

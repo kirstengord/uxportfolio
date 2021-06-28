@@ -349,6 +349,10 @@ footer {
     color:#1a8089;
 }
 
+.light-blue-nohover {
+    color: #21A0AB;
+}
+
 .light-blue {
     color: #21A0AB !important;
 }
@@ -600,6 +604,14 @@ img.chuck-img {
     padding: 5% 0 0;
 }
 
+.green-section {
+    background-color: #12A18B;
+    color: white;
+    padding: 1.5% 0 .75%;
+    margin: 5% 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .solution-chuck {
     padding-top: 5%;
 }
@@ -720,6 +732,14 @@ div.container-fluid.row {
 .wiin-blue {
     color: #0876DD;
 }
+.royal-section {
+    background-color: #0876DD;
+    color: white;
+    padding: 1.5% 0 .75%;
+    margin: 5% 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .how-might {
     font-size: 1.4rem;
 }

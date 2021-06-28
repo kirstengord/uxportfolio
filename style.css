@@ -1024,4 +1024,8 @@ div.container-fluid.row {
     }
 }
 
-
+@media (max-width: 320px) {
+    .wiin-heading {
+        padding: 5% 1% 2%;
+    }
+}

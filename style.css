@@ -100,6 +100,10 @@ iframe {
     color:#0876DD !important;
 }
 
+.wiin-blue.nav-link:hover {
+    color: white !important;
+}
+
 .green {
     color: #12A18B !important;
 }
@@ -736,6 +740,8 @@ div.container-fluid.row {
 .wiin-blue {
     color: #0876DD !important;
 }
+
+
 .royal-section {
     background-color: #0876DD;
     color: white;

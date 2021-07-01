@@ -70,10 +70,9 @@ iframe {
 
 /* Navbar */
 .navbar {
-    background-color: #292828 !important;
+    background-color: #ffffff!important;
     padding: 0 5%;
-    text-align: right;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .logo {
@@ -82,10 +81,9 @@ iframe {
 }
 
 .nav-link {
-    color: white !important;
     font-size: 1rem;
     font-weight: 200;
-    margin-left: 50px;
+    padding-right: 50px !important;
 }
 
 .home.nav-link:hover {
@@ -115,7 +113,7 @@ iframe {
 
 /* home page heading */
 .heading {
-    padding: 8% 0 10% 20%;
+    padding: 8% 0 10% 5%;
 }
 
 .heading-text {
@@ -163,12 +161,12 @@ a.outline-link {
 }
 
 .typeit {
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 /* Work section */
 .work {
-    padding: 2% 20% 0;
+    padding: 5% 5%;
     
 }
 
@@ -827,14 +825,7 @@ div.container-fluid.row {
         padding: 0 5%;
     }
 
-    .heading {
-        padding: 8% 0 10% 25%;
-        /* text-align: center; */
-    }
-
-    .work {
-        padding: 0 25%;
-    }
+   
 
     .about-heading {
         padding: 5% 21% 2%;

@@ -13,7 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight:300;
     height: 100vh;
-    padding-top: 75px;
+    
 }
 
 button {
@@ -28,7 +28,7 @@ h1 {
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 300;
 }
 
@@ -38,7 +38,7 @@ h4 {
 }
 
 hr {
-    border-top: 2px solid #282929; 
+    border-top: 2px solid #2e2d2d; 
     margin: 3% 0
  }
 
@@ -52,6 +52,11 @@ iframe {
         border-radius: 20px;
         width: 85%;
     }
+
+.white-section {
+    background-color: white;
+    margin: 3%;
+}
  
 .row {
     margin-right: 0;
@@ -71,7 +76,7 @@ iframe {
 /* Navbar */
 .navbar {
     background-color: #ffffff!important;
-    padding: 0 5%;
+    padding: 2% 5% 0 !important;
     
 }
 
@@ -81,13 +86,18 @@ iframe {
 }
 
 .nav-link {
-    font-size: 1rem;
-    font-weight: 200;
+    color: #2e2d2d !important;
+    font-size: 1.2rem;
+    font-weight: 300;
     padding-right: 50px !important;
 }
 
-.home.nav-link:hover {
-    color: #12A18B !important;
+.home.nav-link {
+    font-weight: 600 !important;
+}
+
+.nav-link:hover {
+    font-weight: 600 !important;
 }
 
 .tex.nav-link:hover {
@@ -113,24 +123,16 @@ iframe {
 
 /* home page heading */
 .heading {
-    padding: 8% 0 10% 5%;
+    padding: 10% 0 10% 5%;
 }
 
 .heading-text {
-    color: #292828;
+    color: #2e2d2d;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.green-script {
-    color: #12A18B;
-    font-family: Salazur;
-    font-size: 5.2rem;
-}
 
-.green-script:hover {
-   color: #292828;
-}
 
 .bold {
     font-weight: 500;
@@ -143,7 +145,7 @@ iframe {
 }
 
 .outline {
-    color: #292828;
+    color: #2e2d2d;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #292828;
@@ -151,9 +153,9 @@ iframe {
 
   .outline:hover {
     color: #292828;
-    -webkit-text-fill-color: #12A18B; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #292828;
+    -webkit-text-fill-color: #2e2d2d; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #2e2d2d;
   }
 
 a.outline-link {
@@ -161,12 +163,12 @@ a.outline-link {
 }
 
 .typeit {
-    padding-top: 5%;
+    padding-top: 7%;
 }
 
 /* Work section */
 .work {
-    padding: 5% 5%;
+    padding: 5% 3%;
     
 }
 
@@ -186,7 +188,7 @@ a.outline-link {
 /* footer section */
 footer {
     text-align: center;
-    background-color: #292828;
+    background-color: #2e2d2d;
     margin-top: 30px;
 }
 
@@ -208,7 +210,7 @@ footer {
 }
 
 .email {
-    color:#12A18B; 
+    color:white; 
 }
 
 .email:hover {
@@ -240,15 +242,16 @@ footer {
 
 /* about page */
 .about-heading {
-    padding: 5% 20% 2%;
+    padding: 10% 5% 2%;
 }
 
 .typeit-about {
-    font-size: 3.2rem;
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .bio {
-    padding: 3% 18% 1%;
+    padding: 3% 5% 1%;
 }
 
 .about-text {
@@ -263,7 +266,7 @@ footer {
 }
 
 .cv {
-   padding-left: 18%;
+   padding-left: 5%;
 }
 
 .BUTTON_LDK {
@@ -821,23 +824,15 @@ div.container-fluid.row {
 
  /* media queries */
 @media (min-width: 1140px) {
-    .navbar {
-        padding: 0 5%;
-    }
+   
 
    
 
-    .about-heading {
-        padding: 5% 21% 2%;
-    }
+   
 
-    .bio {
-        padding: 3% 21% 1%;
-    }
+   
 
-    .cv {
-        padding-left: 21%;
-    }
+   
 }
 
 @media (min-width: 1025px) {

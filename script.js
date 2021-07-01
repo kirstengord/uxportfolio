@@ -1,6 +1,5 @@
 new TypeIt("#typeit", {
     speed: 75,
-    waitUntilVisible: true
   })
     .type("I create btter", {delay: 300})
     .move(-4)

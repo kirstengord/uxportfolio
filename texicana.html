@@ -28,34 +28,21 @@
 
     <header>
         <!-- Bootstrap navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light">
-            <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo-pink3.png" alt="Kirsten-Gord-Logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><span class="bold">kirsten gord</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="tex nav-link" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="light-blue nav-link dropdown-toggle" href="texicana.html" data-toggle="dropdown">WORK</a>
-                <ul class="dropdown-menu">
-                  <h6 class="dropdown-header">Other projects</h6>
-                  <li><a class="dropdown-item" href="wiin.html">Work In Industry Now App</a></li>
-                  <li><a class="dropdown-item" href="chuckroach.html">Artist Portfolio Redesign</a></li>
-                  <li><a class="dropdown-item" href="dailyui.html">Daily UI Challenges</a></li>
-                  <li><a class="dropdown-item" href="https://kirstengord.github.io/100-days-of-code/" target="_blank">100 Days of Code</a></li>
-                </ul>
+                <a class="nav-link" href="work.html">work</a>
               </li>
               <li class="nav-item">
-                <a class="tex nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link" href="about.html">about</a>
               </li>
               <li class="nav-item">
-                <a class="tex nav-link" href="playground.html">PLAYGROUND</a>
-              </li>
-              <li class="nav-item">
-                <a class="tex nav-link" href="#contact">CONTACT</a>
+                <a class="nav-link" href="#contact">contact</a>
               </li>
             </ul>
             </div>
@@ -63,168 +50,90 @@
     </header> 
 
     <body>
-      <section class="process">
-        <div class="container-fluid">
-          <div class="texicana-heading container-fluid">
-            <h1 class="blue">TEXICANA</h1>
-            <h2 class="white texicana-subtitle">Menu and Ordering App</h2>
-          </div>
-            <div class="container-fluid">
-              <img class="mockup" src="images/texhero1.png" alt="Texicana-mockups">
-            </div>
-          </div>
-      
-        <div class="pink-section">
-          <h2 class="sub-heading">Overview</h2>
-        </div>
+      <div class="container-fluid">
+        <h3 class="title"><i class="arrow fas fa-arrow-left"></i></h3>
+        <h1 class="title">texicana</h1>
+        <h3 id="typeitAbout" class="cs-typeit"></h3>
+        <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+        <script>
+            new TypeIt('#typeitAbout', {
+            strings: "maximising time with friends and family...",
+            speed: 80
+            }).go();
+        </script>
+        <p class="cs-paragraph">Texicana is a concept food truck app created for the Google UX Design course. I was tasked with creating a visual menu app. Research showed that the coronavirus pandemic has changed customer attitudes to queues so I went one step further and created a visual menu and ordering app that helps to maximise social time.</p>
+      </div>
+      <hr>
         <div class="container-fluid">
         <div class="overview row">
-          <div class="overview-item col-lg-4 col-md-6">
-            <h2 class="blue"><i class="far fa-user-circle"> </i>  My Role</h2>
-            <p>This is a concept project for the Google UX Design course. I was responsible for the entire UX design process: Research, Wireframes, Protoypes, Visual Design, Testing</p>
+          <div class="text-left col-4">
+            <p class="bold">My Role</p>
+            <p>I was responsible for the entire UX design process: Research, Wireframes, Protoypes, Visual Design, Testing</p>
           </div>
-          <div class="overview-item col-lg-4 col-md-6">
-            <h2 class="blue"><i class="far fa-clock"> </i> Timeline</h2>
-            <p>6 weeks - April/May 2021</p>
-          </div>
-          <div class="overview-item col-lg-4 col-md-12">
-            <h2 class="blue"><i class="fas fa-tools"> </i> Tools Used</h2>
-            <p>Pen and paper, Figma, Miro, Canva</p>
+          <div class="col-4">
+            <p class="bold">Timeline</p>
+            <p>6 weeks - April | May 2021</p>
           </div>
         </div>
       </div>
-        <div class="problem-tex container-fluid">
-          <div class="card-deck">
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title blue-section how-might">The Problem</h2>
-                  <p class="card-text">The coronavirus pandemic has caused a shift in user attitudes to waiting in a queue. People want an easy way to order and pay for their food that minimises wait times and leaves more time to visit with friends and family.</p>
-                </div>
-            </div>
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title blue-section how-might">The Solution</h2>
-                  <p class="card-text">The Texicana app will allow people visiting the food truck to order and pay for their food without having to queue. It will also have a visual menu so that they have a better idea of what each menu item is.</p>
-                </div>
-            </div>
-            </div>
-            </div>
-        
-        <div class="blue-section">
-          <h2 class="small-heading">My Process</h2>
-        </div>
-        <div class="container-fluid">
-          <img src="images/design-thinking.png" alt="design-thinking-process">
-        </div>
-        <div class="pink-section">
-          <h2 class="sub-heading">1. Empathize</h2>
-        </div>
-        <div class="tex-prompt container-fluid">
-          <p>My prompt for this project was "Design a visual menu app for a food truck in your hometown". I began the empathize phase by thinking about why I would want to use a visual menu app. I love food and I really enjoying trying out different restaurants and food vendors. I often find myself looking around at what everyone else is eating to try to figure out what to order. For me, a visual menu woud be extremely helpful in making that decision. I needed to find out if other people felt the same way.</p>
-        </div>
-        <div class="hypothesis container-fluid">
-          <div class="card-deck">
-            <div class="card border-secondary">
-              <div class="card-body">
-                <h2 class="card-title how-might">Hypothesis</h2>
-                <p class="card-text">People will benefit from a visual menu app when ordering from a food truck because it's easier to look at a picture than to try to visualize a menu item from text.</p>
-              </div>
+      <div class="container-fluid">
+        <img class="tex-mockups"src="images/texicana-mockups.jpg" alt="texicana mockups">
+      </div>
+      <div class="container-fluid">
+        <div class="overview row">
+          <div class="col-12">
+            <h2 class="bold">the problem</h2>
           </div>
-          </div>
-          </div>
-        <div class="blue-section">
-          <h2 class="small-heading">Interviews</h2>
-        </div>
-        <div class="interviews row container-fluid">
-          <div class="overview-item col-lg-6 col-md-6">
-            <h2 class="pink"><i class="far fa-user-circle"> </i>  Participants</h2>
-            <p>3 female, 2 male, ages 19-64<br>All participants eat at a food truck or food stall at least twice a month.</p>
-          </div>
-          <div class="overview-item col-md-6 col-lg-6">
-            <h2 class="pink"><i class="fas fa-microphone"></i> </i> Format</h2>
-            <p>3 interviews were conducted in person, 1 over Google Meet and 1 through Facebook Messenger</p>
+          <div class="col-7">
+            <p>The pandemic has drasticaly changed consumer behavior. We are all much more likely to shop online and order takeaways from our phones. How do we encourage people to get out and enjoy themselves again?</p>
           </div>
         </div>
-        <div class="container-fluid">
-          <div class="card-deck">
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title how-might">Do you enjoy eating at food trucks or food stalls? Why or why not?</h2>
-                  <p class="card-text">"Yeah I love it. Especially after being stuck at home for so long. It's nice to go out and do something 'normal'."</p>
-                </div>
-            </div>
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title how-might">Has the coronavirus pandemic changed your attitude towards eating out?</h2>
-                  <p class="card-text">"I'm normally not one to worry about germs but yeah, I do feel more aware of the people around me now. You always have in the back of your mind '2 meters, 2 meters'."</p>
-                </div>
-            </div>
-            </div>
-            <div class="card-deck">
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title how-might">Can you think of a time when you were annoyed while ordering or eating at a food truck?</h2>
-                  <p class="card-text">"I was at Peddler Market once and had to queue for 40 min. It was a nightmare. That would really annoy me now when all you want to do is spend time with the people you are out with. We've spent so long away from each other I think now you just want to make every second count."</p>
-                </div>
-            </div>
-                <div class="card border-secondary">
-                  <div class="card-body">
-                    <h2 class="card-title how-might">Is there anything that would make ordering at a food truck easier for you?</h2>
-                    <p class="card-text">"I always wish I could see everything on the menu. I see what other people have sometimes and I'm like 'I should have got that!'"<br><br>"I have a big group of friends and one of us always ends up being the one to wait in line and order for everyone else. Someone's order always gets messed up because there is too much to remember. So an easier way to do big group orders would be good."</p>
-                  </div>
-              </div>
-            </div>
+      </div>
+      <div class="padding-top-2 container-fluid">
+        <div class="overview row">
+          <div class="col-12">
+            <h2 class="bold">the goal</h2>
           </div>
-          <div class="blue-section">
-            <h2 class="small-heading">Pain Points</h2>
+          <div class="col-7">
+            <p>Create an app that allows people to feel safe to socialise by automating the ordering process and reducing the need to queue.</p>
           </div>
-          <div class="container-fluid">
-          <div class="card-deck">
-            <div class="card border-secondary">
-              <div class="card-body">
-                <h2 class="card-title pink">1</h2>
-                <h2 class="card-title how-might">Queues</h2>
-                <p class="card-text">Many people don't like long queues because it takes time away from friends and family. Some people are also hesitant to wait near others outside of their social bubble.</p>
-              </div>
-              <img class="pp-img card-img-bottom chuck-img" src="images/texicanacs/queue.png" alt="queue">
-          </div>
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title pink">2</h2>
-                  <h2 class="card-title how-might">Viewing Menu Items</h2>
-                  <p class="card-text">Some people want to be able to see pictures of menu items before they order. It is easier to decide from pictures than text.</p>
-                </div>
-                <img class="pp-img card-img-bottom chuck-img" src="images/texicanacs/view-menu.jpg" alt="tacos">
+        </div>
+      </div>
+        <hr>
+        <div class="padding-top-2 container-fluid">
+          <div class="overview row">
+            <div class="col-12">
+              <h2 class="bold">my process</h2>
             </div>
-            <div class="card border-secondary">
-              <div class="card-body">
-                <h2 class="card-title pink">3</h2>
-                <h2 class="card-title how-might">Group Orders</h2>
-                <p class="card-text">Some people want an easier way to place big group orders. It is difficult to remember a large order.</p>
-              </div>
-              <img class="pp-img card-img-bottom chuck-img" src="images/texicanacs/group.jpg" alt="group of friends">
+            <div class="col-7">
+              <p>I began by conducting interviews to confirm assumptions about consumer behavior changes. I used this information to create a persona, user story, and storyboard which helped to keep the user front and center during the ideation phase. I researched competitors using ordering apps for ideas and pain points before creating a user flow and then paper and digital wireframes. After round 1 testing with the low fidelity prototype, I created mockups and a high fidelity prototype for a second round of testing. </p>
             </div>
           </div>
         </div>
-        <div class="blue-section">
-          <h2 class="small-heading">Conclusion</h2>
+        <hr>
+        <div class="padding-top-2 container-fluid">
+          <div class="overview row">
+            <div class="col-12">
+              <h2 class="bold">persona</h2>
+            </div>
+            <div class="col-7">
+              <p>In order to better understand the user for this project, I create the persona of Georgina who became my travel companion on this design journey, helping me to better understand the project from her point of view and to create the best possible user experience.</p>
+            </div>
+            <div class="align-self-center col-md-6 col-lg-6">
+              <p class="meet bold">Meet Georgina...</p>
+            </div>
+            <div class="georgina-video embed-responsive embed-responsive-16by9 georgina-div col-lg-6 col-md-6">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hOq01uIPVl8?playlist=hOq01uIPVl8&loop=1;rel=0&autoplay=1&mute=1&controls=0&showinfo=0&playsinline=1"></iframe>
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <p class="meet italic">"After being apart for so long, time with my friends and family is so important."</p>
+            </div>
+          </div>
         </div>
-        <div class=container-fluid>
-          <p>Research showed that people would benefit from a visual menu but more importantly they would like a way to order without having to queue.</p>
-        </div>
-          <div class="blue-section">
-            <h2 class="small-heading">Persona</h2>
-          </div>
-          <div class="row container-fluid">
-          <div class="align-self-center col-md-6 col-lg-6">
-            <h2 class="meet-georgina pink">Meet Georgina...</h2>
-          </div>
-          <div class="embed-responsive embed-responsive-16by9 georgina-div col-lg-6 col-md-6">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hOq01uIPVl8?playlist=hOq01uIPVl8&loop=1;rel=0&autoplay=1&mute=1&controls=0&showinfo=0&playsinline=1"></iframe>
-          </div>
-          <div class="col-lg-12 col-md-12">
-            <h4 class="georgina-quote">"After being apart for so long, time with my friends and family is so important."</h4>
-          </div>
+            
+          
+          
+          
           <div class="text-left col-lg-4 col-md-4">
             <div class="blue-border container-fluid">
             <p><b>Age:</b> 19</p>
@@ -259,6 +168,7 @@
           </div>
           </div>
         </div>
+      </div>
         <div class="blue-section georgina-journey">
           <h2 class="small-heading">Georgina's Journey</h2>
         </div>

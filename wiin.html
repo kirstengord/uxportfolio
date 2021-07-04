@@ -28,34 +28,21 @@
 
     <header>
         <!-- Bootstrap navbar -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light">
-            <a class="navbar-brand" href="index.html"><img class="logo" src="images/logo4.png" alt="Kirsten-Gord-Logo"></a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="bold navbar-brand" href="index.html">kirsten gord</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="wiin nav-link" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="wiin-blue nav-link dropdown-toggle" href="wiin.html" data-toggle="dropdown">WORK</a>
-                <ul class="dropdown-menu">
-                  <h6 class="dropdown-header">Other projects</h6>
-                  <li><a class="dropdown-item" href="texicana.html">Texicana Odering App</a></li>
-                  <li><a class="dropdown-item" href="chuckroach.html">Artist Portfolio Redesign</a></li>
-                  <li><a class="dropdown-item" href="dailyui.html">Daily UI Challenges</a></li>
-                  <li><a class="dropdown-item" href="https://kirstengord.github.io/100-days-of-code/" target="_blank">100 Days of Code</a></li>
-                </ul>
-                </li>
-              <li class="nav-item">
-                <a class="wiin nav-link" href="about.html">ABOUT</a>
+                <a class="nav-link" href="work.html">work</a>
               </li>
               <li class="nav-item">
-                <a class="wiin nav-link" href="playground.html">PLAYGROUND</a>
+                <a class="wiin nav-link" href="about.html">about</a>
               </li>
               <li class="nav-item">
-                <a class="wiin nav-link" href="#contact">CONTACT</a>
+                <a class="wiin nav-link" href="#contact">contact</a>
               </li>
             </ul>
             </div>
@@ -63,75 +50,61 @@
     </header> 
 
     <body>
-        <div class="row container-fluid hero">
-          <div class="container-fluid chuck-heading">
-            <h1 class="wiin-blue wiin-heading chuck-title">Work In Industry Now</h1>
-            <h2 class="white subtitle">An App for Finding Opportunities to "Earn as you Learn"</h2>
-            <img class="wiin-hero mockup" src="images/wiin/mockup-hero.png" alt="wiin-app-mockups">
-            </div>
-        </div>
-      
-        <section class="process">
-        <div class="casestudy-heading container-fluid">
-          <h2 class="white cs-heading">OVERVIEW</h2>
-        </div>
-        <div class="overview-chuck row container-fluid">
-          <div class="overview-item col-lg-4 col-md-6">
-            <h2 class="wiin-blue"><i class="far fa-user-circle"> </i>  My Role</h2>
-            <p>Lead UX Designer - Recruited at the Ideation phase, my responsibilities include creating personas and user stories from previous user research, wireframing, prototyping, and visual design.</p>
-          </div>
-          <div class="overview-item col-lg-4 col-md-6">
-            <h2 class="wiin-blue"><i class="far fa-clock"> </i> Timeline</h2>
-            <p>May 2021 - in progress</p>
-          </div>
-          <div class="overview-item col-lg-4 col-md-12">
-            <h2 class="wiin-blue"><i class="fas fa-tools"> </i> Tools Used</h2>
-            <p>Pen and paper, Figma, Canva</p>
-          </div>
-        </div>
-        <div class="problem-tex container-fluid">
-          <div class="card-deck">
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title royal-section how-might">The Problem</h2>
-                  <p class="card-text">The HR process is anitquated, inequitable and does not take into account the whole human.</p>
-                </div>
-            </div>
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title royal-section how-might">The Solution</h2>
-                  <p class="card-text">Create an app that disrupts the current HR process by removing the need for resume and cover letter writing. The app will humanize the process by providing advice and matching potential skillsets with learning and employment opportunities.</p>
-                </div>
-            </div>
-            </div>
-            </div>
-        
-        <div class="container-fluid casestudy-heading">
-          <h2 class="white cs-heading">MY PROCESS</h2>
-        </div>
+      <div class="row container-fluid">
+        <div class="col-lg-11 col-md-11 col-sm-12">
+        <h3 class="title"><a class="back-arrow" href="work.html"><i class="arrow fas fa-arrow-left"></i></a></h3>
+        <h1 class="title">work in industry now</h1>
+        <h3 id="typeitAbout" class="cs-typeit"></h3>
+        <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+        <script>
+            new TypeIt('#typeitAbout', {
+            strings: "removing bias and simplifying the recruitment process...",
+            speed: 80
+            }).go();
+        </script>
+        <p class="cs-paragraph">Work In Industry Now is a startup based in San Antonio, TX currently participating in the 2021 Geekdom incubator. The Wiin app will simplify the recruitment process for companies providing apprenticeships and aid students in finding those opportunities. The app aims to humanize the process through onboarding and matching potential skillsets with experiential opportunities.</p>
+      </div>
+    </div>
+      <hr>
         <div class="container-fluid">
-          <img src="images/design-thinking.png" alt="design-thinking-process">
+        <div class="overview row">
+          <div class="text-left col-4">
+            <p class="bold">My Role</p>
+            <ul>
+              <li>Helped define MVP</li>
+              <li>Designed app prototype for students</li> 
+              <li>Designed admin system for schools</li>
+              <li>Designed business accounts</li>  
+            </ul>
+          </div>
+          <div class="col-3">
+            <p class="bold">Timeline</p>
+            <p>May 2021 - ongoing</p>
+          </div>
+          <div class="col-5">
+            <p class="bold">Team members</p>
+            <ul>
+              <li>Kirsten Gord - Product Designer (UX/UI) 
+              <li>Sandra Gonzalez-Lamb - Founder</li> 
+              <li>Karen Li - Developer</li>
+              <li>Jesse Briones - UX Design Intern</li>
+            </ul>
+            </div>
         </div>
-        <div class="wiin-heading container-fluid">
-            <h1 id="typeitAbout" class="typeit-about"></h1>
-            <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-            <script>
-                new TypeIt('#typeitAbout', {
-                strings: "case study coming soon...",
-                speed: 80,
-                waitUntilVisible: true
-                }).go();
-            </script>
-        </div>
-
-            
-       
-
+      </div>
+      <hr>
+      <div class="container-fluid">
+        <img class="tex-mockups"src="images/wiin-mockups3.jpg" alt="wiin mockups">
+      </div>
+      <hr>
+      <div class="container-fluid inprogress">
+        <h2 class="bold">case study in progress...</h2>
+      </div>
         <footer id="contact">
             <div class="container-fluid available">
-              <h2 class="wiin-blue">I'm currently available for freelance work.</h2>
+              <h2 class="white">I'm currently available for freelance work.</h2>
               <h3 class="white contact">Have a project you want to get started? Get in touch!</h3>
-              <a class="wiin-blue" href="mailto:kirstengorddesign@gmail.com" target="_blank">kirstengorddesign@gmail.com</a>
+              <a href="mailto:kirstengorddesign@gmail.com" target="_blank">kirstengorddesign@gmail.com</a>
             </div>
             <div class="footer container-fluid">
               <a href="https://www.linkedin.com/in/kirstengord/" target="_blank"><i class="icon white fab fa-linkedin-in fa-2x"></i></a>

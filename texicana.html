@@ -28,7 +28,7 @@
 
     <header>
         <!-- Bootstrap navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="cs navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="index.html"><span class="bold">kirsten gord</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -50,8 +50,9 @@
     </header> 
 
     <body>
-      <div class="container-fluid">
-        <h3 class="title"><i class="arrow fas fa-arrow-left"></i></h3>
+      <div class="row container-fluid">
+        <div class="col-lg-11 col-md-11 col-sm-12">
+        <h3 class="title"><a class="back-arrow" href="work.html"><i class="arrow fas fa-arrow-left"></i></a></h3>
         <h1 class="title">texicana</h1>
         <h3 id="typeitAbout" class="cs-typeit"></h3>
         <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
@@ -63,6 +64,7 @@
         </script>
         <p class="cs-paragraph">Texicana is a concept food truck app created for the Google UX Design course. I was tasked with creating a visual menu app. Research showed that the coronavirus pandemic has changed customer attitudes to queues so I went one step further and created a visual menu and ordering app that helps to maximise social time.</p>
       </div>
+    </div>
       <hr>
         <div class="container-fluid">
         <div class="overview row">
@@ -76,9 +78,11 @@
           </div>
         </div>
       </div>
+      <hr>
       <div class="container-fluid">
         <img class="tex-mockups"src="images/texicana-mockups.jpg" alt="texicana mockups">
       </div>
+      <hr>
       <div class="container-fluid">
         <div class="overview row">
           <div class="col-12">
@@ -116,16 +120,11 @@
             <div class="col-12">
               <h2 class="bold">persona</h2>
             </div>
-            <div class="col-7">
+            <div class="persona-text col-lg-7 col-md-12 col-sm-12">
               <p>In order to better understand the user for this project, I create the persona of Georgina who became my travel companion on this design journey, helping me to better understand the project from her point of view and to create the best possible user experience.</p>
             </div>
-            <div class="col-12">
+            <div class="col-lg-6 col-md-6">
               <p class="meet bold">meet georgina...</p>
-            </div>
-            <div class="col-lg-6 col-md-6">
-              <img class="georgina-image" src="images/georgina.jpg" alt="image of georgina">
-            </div>
-            <div class="col-lg-6 col-md-6">
               <ul>
               <li>19 years old</li>
               <li>Art student at University of Sheffield</li>
@@ -133,6 +132,10 @@
               <li>Georgina is a talented painter and spends most of her time in the art studio. When she isn't busy panting she enjoys spending time with her friends. They all love to try out new restaurants and street food vendors. Georgina really struggled during lockdown and found it difficult be away from her family. She really appreciates the time she gets to spend with them now.</li>
             </ul>
             </div>
+            <div class="col-lg-6 col-md-6">
+              <img class="georgina-image" src="images/georgina.jpg" alt="image of georgina">
+            </div>
+           
             <div class="col-md-6 col-lg-6">
               <p class="bold">frustrations</p>
               <ul>
@@ -163,257 +166,25 @@
               <h2 class="bold">analyzing competitors</h2>
             </div>
             <div class="col-7">
-              <p>I began by conducting interviews to confirm assumptions about consumer behavior changes. I used this information to create a persona, user story, and storyboard which helped to keep the user front and center during the ideation phase. I researched competitors using ordering apps for ideas and pain points before creating a user flow and then paper and digital wireframes. After round 1 testing with the low fidelity prototype, I created mockups and a high fidelity prototype for a second round of testing. </p>
+              <p>I looked at apps from two food halls in Sheffield, Cutlery Works and Kommune, to generate ideas for user flows and find pain points that I could address in my design.</p>
             </div>
           </div>
+        </div>
+        <hr>
+        <div class="container-fluid inprogress">
+          <h2 class="bold">case study in progress...</h2>
         </div>
           
           
          <!-- start here -->
       
-        <div class="blue-section georgina-journey">
-          <h2 class="small-heading">Georgina's Journey</h2>
-        </div>
-        <div class="user-journey-img container-fluid">
-          <img src="images/texicanacs/tex-user-journey2.svg" alt="user-journey">
-        </div>
-          <div class="row">
-          <div class="padding col-12">
-            <h2 class="pink">Kommune</h2>
-            <p>The Kommune app overall is very good. It is slightly confusing the first time you open it. The button to choose how to order is at the bottom of the page and there are several other links that are not relate to ordering. This initial flow to get to the menus could be improved.</p>
-          </div>
-          <div class="container-fluid col-md-4 col-lg-4">
-            <img class="competitor-img" src="images/texicanacs/Kommune 1.png" alt="Kommune-app-image">
-          </div>
-          <div class="container-fluid col-md-4 col-lg-4">
-            <img class="competitor-img" src="images/texicanacs/Kommune 2.png" alt="Kommune-app-image">
-          </div>
-          <div class="container-fluid col-md-4 col-lg-4">
-            <img class="competitor-img" src="images/texicanacs/Kommune 3.png" alt="Kommune-app-image">
-          </div>
-        </div>
-        <div class="row">
-        <div class="padding col-12">
-          <h2 class="pink">Cutlery Works</h2>
-          <p>The Cutlery Works app is a web app so it can be opened on any phone or device with a web browser. This is not as convenient as a mobile app though. The app is slightly confusing because it also has other food vendors that are not located at Cutlery Works although when you are at Cutlery Works and have location services on it puts Cutlery Works vendors at the top of the list. I like that this app saves previous orders for future use.</p>
-        </div>
-        <div class="container-fluid col-md-4 col-lg-4">
-          <img class="competitor-img" src="images/texicanacs/Cutlery Works 1.png" alt="Cutlery Works-app-image">
-        </div>
-        <div class="container-fluid col-md-4 col-lg-4">
-          <img class="competitor-img" src="images/texicanacs/Cutlery Works 2.png" alt="Cutlery Works-app-image">
-        </div>
-        <div class="container-fluid col-md-4 col-lg-4">
-          <img class="competitor-img" src="images/texicanacs/Cutlery Works 3.png" alt="Cutlery Works-image">
-        </div>
-      </div>
-     
-        <div class="blue-section">
-          <h2 class="small-heading">User Flow</h2>
-        </div>
-        <div class="container-fluid user-journey-img">
-          <img class="width-95" src="images/texicanacs/tex-user-flow.svg" alt="Texicana-user-flow">
-        </div>
-        <div class="blue-section">
-          <h2 class="small-heading">Paper Wireframes</h2>
-        </div>
-        
-        <div class="blue-section">
-          <h2 class="small-heading">Digitial Wireframes</h2>
-        </div>
-        <div class="col-12 container-fluid">
-          <img class="width-95 blue-border" src="images/texicanacs/Texicana-lo-fi.png" alt="lo-fi-wireframes">
-        </div>
-        <div class="pink-section">
-          <h2 class="sub-heading">4. Low Fidelity Prototype</h2>
-        </div>
-        <div class="row container-fluid">
-          <div class="col-lg-6 col-md-6 container-fluid">
-            <img class="pink-border" src="images/texicanacs/tex-lo-fi-interactions.png" alt="lo-fi-prototype">
-          </div>
-          <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 container-fluid">
-            <iframe class="width-95 embed-responsive-item" src="https://www.youtube.com/embed/UMfQTPpf79g?playlist=UMfQTPpf79g&loop=1;rel=0&autoplay=0&mute=1&controls=1&showinfo=0&playsinline=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"></iframe>
-          </div>
-        </div>
-        <div class="padding-top center-button container-fluid">
-          <a href="https://www.figma.com/proto/WiK4EgL0Pnw7Jy63UTmtyA/Texicana-App?page-id=166%3A2357&node-id=166%3A2358&viewport=80%2C161%2C0.18702024221420288&scaling=scale-down" target="_blank" class="texicana-button">View Prototype</a>
-        </div>
-        <div class="pink-section">
-          <h2 class="sub-heading">5. Test</h2>
-        </div>
-
-        <div class="problem-tex container-fluid">
-          <div class="card-deck">
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title blue-section how-might">Study #1</h2>
-                  <p class="card-text">I conducted an in-person moderated usability study with 5 participants (3 female, 2 male, ages 30-65) using the low fidelity prototype</p>
-                  <div class="padding-top center-button container-fluid">
-                    <a href="https://docs.google.com/document/d/1kh9eAz0D9-p7DZsuPnJCMlk8w_FKt7sSOmZMaixY2iI/edit?usp=sharing" target="_blank" class="texicana-button">View Study Plan</a>
-                  </div>
-                </div>
-            </div>
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title blue-section how-might">Study #2</h2>
-                  <p class="card-text">I conducted an in-person moderated usability study with 3 participants (2 female, 1 male, ages 36-42) using the high fidelity prototype</p>
-                  <div class="padding-top center-button container-fluid">
-                    <a href="https://docs.google.com/document/d/1c_i67uDq14-UsYgLPMP0BVr0wqgvF4AfA4AptbT3bYI/edit?usp=sharing" target="_blank" class="texicana-button">View Study Plan</a>
-                  </div>
-                </div>
-            </div>
-            </div>
-            </div>
-        <div class="blue-section">
-          <h2 class="small-heading">Insights - Study #1</h2>
-        </div>
-        <div class="container-fluid">
-          <div class="card-deck">
-            <div class="card border-secondary">
-              <div class="card-body">
-                <h2 class="card-title pink">1</h2>
-                <h2 class="card-title how-might">Payment Confirmation</h2>
-                <p class="card-text">Users expect to see a confirmation page before their payment is taken in order to confirm amount and payment method. On the cart page change the "Pay" button to "Confirm Order" and add a payment confirmation page.</p>
-              </div>
-              <img class="card-img-bottom chuck-img" src="images/texicanacs/confirmation.png" alt="payment confirmation illustration">
-          </div>
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title pink">2</h2>
-                  <h2 class="card-title how-might">Payment Update</h2>
-                  <p class="card-text">Users want an easier way to update payment information. On the payment confirmation page add an option to update payment method.</p>
-                </div>
-                <img class="card-img-bottom chuck-img" src="images/texicanacs/change-payment.png" alt="change payment illustration">
-            </div>
-            <div class="card border-secondary">
-              <div class="card-body">
-                <h2 class="card-title pink">3</h2>
-                <h2 class="card-title how-might">Cash Payments</h2>
-                <p class="card-text">Users want the option to pay with cash. On the payment confirmation page add the option to pay with cash at the food truck window.</p>
-              </div>
-              <img class="card-img-bottom chuck-img" src="images/texicanacs/cash.png" alt="cash illustration">
-            </div>
-          </div>
-        </div>
-        <div class="blue-section">
-          <h2 class="small-heading">Insights - Study #2</h2>
-        </div>
-        <div class="container-fluid">
-          <div class="card-deck">
-            <div class="card border-secondary">
-              <div class="card-body">
-                <h2 class="card-title pink">1</h2>
-                <h2 class="card-title how-might">Logo Colors</h2>
-                <p class="card-text">All three participants agreed that the logo was very bright. Tone down the colors of the logo.</p>
-              </div>
-              <img class="card-img-bottom chuck-img" src="images/texicanacs/logo-before2.png" alt="logo-before">
-          </div>
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title pink">2</h2>
-                  <h2 class="card-title how-might">Menu Browsing</h2>
-                  <p class="card-text">Users want an easier way to view menu sections. Add a horizontal scroll menu section bar at the top of the menu screen.</p>
-                </div>
-                <img class="card-img-bottom chuck-img" src="images/texicanacs/menu-scroll.png" alt="horizontal menu scroll">
-            </div>
-          </div>
-        </div>
-        
-        <div class="blue-section">
-          <h2 class="small-heading">Before and After: Creating Mockups</h2>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-4 col-md-4">
-              <h2 class="padding-mockup pink">Before</h2>
-              <img class="tex-mockup2" src="images/texicanacs/Cart Page.png" alt="lo-fi-cart-page">
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <h2 class="padding-mockup blue">After</h2>
-              <img class="tex-mockup" src="images/texicanacs/cart-mockup.png" alt="cart page mockup">
-            </div>
-            <div class="col-lg-4 col-md-4">
-              <h2 class="padding-mockup blue">After</h2>
-              <img class="tex-mockup" src="images/texicanacs/payment-confirm-mockup.png" alt="payment confirmatio mockup">
-            </div>
-            <div class="col-lg-3 col-md-3">
-              <h2 class="padding-mockup2 pink">Before</h2>
-              <img class="tex-mockup" src="images/texicanacs/logo-before.png" alt="logo mockup before">
-            </div>
-            <div class="col-lg-3 col-md-3">
-              <h2 class="padding-mockup2 blue">After</h2>
-              <img class="tex-mockup" src="images/texicanacs/logo-mockup.png" alt="logo-mockup-after">
-            </div>
-            <div class="col-lg-3 col-md-3">
-              <h2 class="padding-mockup2 pink">Before</h2>
-              <img class="tex-mockup" src="images/texicanacs/menu-before.png" alt="menu mockup before">
-            </div>
-            <div class="col-lg-3 col-md-3">
-              <h2 class="padding-mockup2 blue">After</h2>
-              <img class="tex-mockup" src="images/texicanacs/menu-mockup.png" alt="menu-mockup-after">
-            </div>
-          </div>
-        </div>
-        <div class="blue-section">
-          <h2 class="small-heading">Design System</h2>
-        </div>
-        <div class="container-fluid">
-          <img src="images/texicanacs/Design Kit.png" alt="design-system">
-        </div>
-        <div class="pink-section">
-          <h2 class="sub-heading">6. High Fidelity Prototype</h2>
-        </div>
-        <div class="row container-fluid">
-          <div class="col-lg-6 col-md-6 container-fluid">
-            <img class="pink-border" src="images/texicanacs/hi-fi-interactions.png" alt="hi-fi-prototype image">
-          </div>
-          <div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-6 container-fluid">
-            <iframe class="width-95 embed-responsive-item" src="https://www.youtube.com/embed/bfHF91vULO0?playlist=bfHF91vULO0&loop=1;rel=0&autoplay=0&mute=1&controls=1&showinfo=0&playsinline=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"></iframe>
-          </div>
-        </div>
-        <div class="padding-top center-button container-fluid">
-          <a href="https://www.figma.com/proto/WiK4EgL0Pnw7Jy63UTmtyA/Texicana-App?page-id=166%3A1473&node-id=166%3A1474&viewport=-271%2C326%2C0.125&scaling=scale-down" target="_blank" class="texicana-button">View Prototype</a>
-        </div>
-        
-        <div class="less-padding pink-section">
-          <h2 class="sub-heading">What I Learned</h2>
-        </div>
-        <div class="container-fluid">
-          <div class="card-deck">
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title blue-section how-might">Mistake 1</h2>
-                  <p class="card-text">I didn't do enough research. I should have done a survey to back up the findings from the interviews. This would have made my design decisions easier to explain and defend to stakeholders. Research is the foundation of the design. Going forward I will always spend more time on the research phase.</p>
-                </div>
-            </div>
-              <div class="card border-secondary">
-                <div class="card-body">
-                  <h2 class="card-title blue-section how-might">Mistake 2</h2>
-                  <p class="card-text">Texicana is a concept business. If I had chosen a real food truck then I would have been able to do even more user research by looking at reviews. It's best to solve real problems.</p>
-                </div>
-            </div>
-            <div class="card border-secondary">
-              <div class="card-body">
-                <h2 class="card-title blue-section how-might">Mistake 3</h2>
-                <p class="card-text">I didnt pay enough attention to the research when I started wireframing. I noted the need for cash payments in my user journey, but I didn't have that option in my first prototype. Going forward I will keep my research front and center while I'm designing.</p>
-              </div>
-          </div>
-            </div>
-            </div>
-        <div class="container-fluid">
-          <p>All three of these mistakes stem from not understanding the Design Thinking process. The course teaches the process step by step as you complete this first project. By the end, all the pieces fell into place and I could see where I had gone wrong. I look forward to improving in future projects.<br><br> I intially started the Google UX Design course just to try to gain skills that would compliment my front-end development skills. By the prototyping stage of this project I knew that UX design was the path for me. I absolutely love it. I learned how to complete the entire UX design process from empathizing with people to prototyping and testing. I loved creating Georgina's story and using it to inform my design. I especially enjoyed building the prototype.</p>
-        </div>
-        <div class="blue-section">
-          <h2 class="sub-heading">Thank you!</h2>
-          <p class="thankyou">Thank you for taking the time to review this case study. If you have any questions or feedback please get in touch. You can email me at the link below.</p>
-        </div>
-      </section>
+      
 
         <footer id="contact">
             <div class="container-fluid available">
-              <h2 class="light-blue-nohover">I'm currently available for freelance work.</h2>
+              <h2 class="white">I'm currently available for freelance work.</h2>
               <h3 class="white contact">Have a project you want to get started? Get in touch!</h3>
-              <a class="light-blue" href="mailto:kirstengorddesign@gmail.com" target="_blank">kirstengorddesign@gmail.com</a>
+              <a href="mailto:kirstengorddesign@gmail.com" target="_blank">kirstengorddesign@gmail.com</a>
             </div>
             <div class="footer container-fluid">
               <a href="https://www.linkedin.com/in/kirstengord/" target="_blank"><i class="icon icon-pink white fab fa-linkedin-in fa-2x"></i></a>

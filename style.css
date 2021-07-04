@@ -213,7 +213,6 @@ a.outline-link {
 /* footer section */
 footer {
     text-align: center;
-    background-color: #2e2d2d;
     margin-top: 30px;
 }
 
@@ -235,27 +234,25 @@ footer {
 }
 
 .email {
-    color:white; 
+    color:#2e2d2d; 
 }
 
 .email:hover {
-    color: white;
+    text-decoration: underline;
+    color: #2e2d2d;
 }
 
 .icon {
     padding: 30px 20px 20px;
+    color: #2e2d2d;
 }
 
-.icon-green:hover {
-    color: #12A18B;
-}
-
-.icon-pink:hover {
-    color: #CF2B4E;
+.icon:hover {
+    color: #757575;
 }
 
 .copyright {
-    color: white;
+    color: #2e2d2d;
     font-size: .8rem;
     font-weight: 100;
     padding: 20px 0 10px;

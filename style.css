@@ -187,7 +187,7 @@ a.outline-link {
 }
 
 .title {
-    padding: 4% 5% 2%;
+    padding: 4% 0 0;
 }
 
 .cs-typeit {
@@ -318,16 +318,14 @@ footer {
  /* Texicana Case Study page */
 a.back-arrow {
     text-decoration: none;
-    color: #2e2d2d;
+    color: #757575;
 }
 
 .back-arrow:hover {
     font-size: 2rem;
 }
 
-.cs-paragraph {
-    padding: 1% 30% 0 5%;
-}
+
  .hero {
      text-align: center;
      margin: 5% 0 0;
@@ -378,8 +376,11 @@ a.back-arrow {
  }
 
 .cs-heading {
-    padding: 3% 0;
-    font-size: 3rem;
+    padding-top: 5%;
+}
+
+.cs-paragraph {
+    padding-top: 2%;
 }
 
 div.overview.row {

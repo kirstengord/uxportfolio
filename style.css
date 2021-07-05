@@ -20,7 +20,7 @@ body {
 
 h1 {
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 1.5;
     letter-spacing: .2rem;
 }
@@ -47,7 +47,7 @@ p {
 
 hr {
     border-top: 2px solid #2e2d2d; 
-    margin: 3% 6% 3%;
+    margin: 3% 6% 3% 7%;
  }
 
 img {
@@ -60,8 +60,16 @@ iframe {
         width: 85%;
     }
 
+li {
+    padding-top: 1%;
+}
+
+ul {
+    padding-left: 5%;
+}
+
 .bold {
-    font-weight: 500;
+    font-weight: bold !important;
 }
 
 .italic {
@@ -91,7 +99,7 @@ iframe {
 /* Navbar */
 .navbar {
     background-color: #ffffff!important;
-    padding: 2% 5% 0 6% !important;  
+    padding: 2% 6% 0 !important;  
 }
 
 a.navbar-brand:hover {
@@ -366,7 +374,7 @@ a.back-arrow {
 }
 
 div.overview.row {
-    padding: 0 4%;
+    padding: 0 5%;
 }
 
 .inprogress {
@@ -468,30 +476,6 @@ div.overview.row {
     width: 90%;
 }
 
-.blue-border {
-    border-radius: 20px;
-    border: solid 2px #1a8089;
-    margin-bottom: 3%;
-}
-
-.pink-border {
-    border: solid 2px #CF2B4E;
-}
-.persona-pink {
-    background-color: #CF2B4E;
-    color: white;
-    border-radius: 20px;
-    padding: 2%;
-    margin-top: 3%;
-}
-
-.persona-blue {
-    background-color: #1a8089;
-    color: white;
-    border-radius: 20px;
-    padding: 2%;
-    margin: 3% auto 3%;
-}
 
 .user-journey-img img{
     border: solid 2px #1a8089;
@@ -799,10 +783,7 @@ div.container-fluid.row {
      margin-bottom: 2%;
  }
 
- li {
-     padding-top: 2%;
-     padding-right: 2%;
- }
+ 
 
  .greeting {
      width: 75%;

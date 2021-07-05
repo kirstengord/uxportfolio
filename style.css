@@ -481,8 +481,12 @@ div.overview.row {
     border: solid 2px #1a8089;
 }
 
-.tex-mockups {
+.cs-mockups {
     padding: 0 2%;
+}
+
+.wiin-mockups {
+    padding: 0 6%;
 }
 
 

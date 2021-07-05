@@ -41,7 +41,8 @@ h4 {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.7;
 }
 
 hr {
@@ -58,6 +59,10 @@ iframe {
         border-radius: 20px;
         width: 85%;
     }
+
+.bold {
+    font-weight: 500;
+}
 
 .italic {
     font-style: italic;
@@ -86,8 +91,11 @@ iframe {
 /* Navbar */
 .navbar {
     background-color: #ffffff!important;
-    padding: 2% 5% 0 6% !important;
-    
+    padding: 2% 5% 0 6% !important;  
+}
+
+a.navbar-brand:hover {
+    font-weight: bold;
 }
 
 .cs.navbar {
@@ -111,27 +119,7 @@ iframe {
 }
 
 .nav-link:hover {
-    font-weight: 600 !important;
-}
-
-.tex.nav-link:hover {
-    color: #cf2b4e !important;
-}
-
-.wiin.nav-link:hover {
-    color:#0876DD !important;
-}
-
-.wiin-blue.nav-link:hover {
-    color: white !important;
-}
-
-.green {
-    color: #12A18B !important;
-}
-
-.nav-link.green:hover {
-    color: white !important;
+    font-weight: bold !important;
 }
 
 
@@ -148,15 +136,8 @@ iframe {
 
 
 
-.bold {
-    font-weight: 500;
-    /* color: #12A18B; */
-}
 
-.extra-bold {
-    font-weight: 600;
-    color: #12A18B;
-}
+
 
 .outline {
     color: #2e2d2d;
@@ -323,7 +304,7 @@ a.back-arrow {
 }
 
 .back-arrow:hover {
-    font-size: 2rem;
+    color: #2e2d2d;
 }
 
 

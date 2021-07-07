@@ -796,6 +796,8 @@ div.container-fluid.row {
         letter-spacing: normal;
     } 
 
+  
+
     .heading {
         padding: 8% 6% 20%;
         text-align: left;
@@ -805,18 +807,12 @@ div.container-fluid.row {
         padding-bottom: 8%;
     }
     
-    .green-script {
-        font-size: 3rem;
+   
+    .tex-storyboard {
+        padding: 0 3%;
     }
 
-    .hi {
-        font-size: 2.7rem;
-    }
-
-    .name {
-        letter-spacing: .1rem;
-        margin-bottom: 2%;
-    }
+   
 
     h3 {
         font-size: 1.6rem;

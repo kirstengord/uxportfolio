@@ -114,7 +114,7 @@ a.navbar-brand:hover {
 }
 
 .cs.navbar {
-    padding: 2% 5% 0 7% !important;
+    padding: 2% 7% 0 !important;
 }
 
 .logo {
@@ -258,7 +258,11 @@ footer {
 }
 .about-img {
     width: 35%;
-    margin: 0 25px 10px 0;
+    margin: 0;
+}
+
+.about-img-2 {
+    width: 70%;
 }
 
 .cv {
@@ -495,6 +499,7 @@ div.overview.row {
 /* playground page */
 
 .playground-img {
+    width: 75%;
     padding: 0 6%;
 }
 

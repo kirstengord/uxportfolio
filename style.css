@@ -172,9 +172,33 @@ a.outline-link {
 }
 
 /* Work section */
+.work-heading {
+    padding: 7% 5% 2%;
+}
+
 .work {
     padding: 0 5% 5%;
     
+}
+
+.work-border {
+    border: solid 3px #2e2d2d;
+}
+
+.tex-border:hover {
+    border: solid 3px #CF2B4E;
+}
+
+.wiin-border:hover {
+    border: solid 3px #0876DD;
+}
+
+.orange-border:hover {
+    border: solid 3px orangered;
+}
+
+.green-border:hover {
+    border: solid 3px rgb(63, 214, 63);
 }
 
 .cs-typeit {
@@ -244,7 +268,7 @@ footer {
 
 /* about page */
 .about-heading {
-    padding: 10% 5% 0;
+    padding-bottom: 1%;
 }
 
 .bio {

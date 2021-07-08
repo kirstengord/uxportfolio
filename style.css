@@ -13,10 +13,11 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight:300;
     height: 100vh;
-    
 }
 
-
+body#homepage {
+    overflow:hidden;
+}
 
 h1 {
     font-size: 3.5rem;
@@ -172,7 +173,7 @@ a.outline-link {
 
 /* Work section */
 .work {
-    padding: 0 5% 5% 4%;
+    padding: 0 5% 5%;
     
 }
 
@@ -243,7 +244,7 @@ footer {
 
 /* about page */
 .about-heading {
-    padding: 7% 5% 5%;
+    padding: 10% 5% 0;
 }
 
 .bio {
@@ -430,7 +431,6 @@ div.overview.row {
 }
 
 .tex-user-journey {
-    padding: 0 6%;
     margin-top: 1%;
 }
 
@@ -490,6 +490,12 @@ div.overview.row {
 
 .center-button {
     text-align: center;
+}
+
+/* playground page */
+
+.playground-img {
+    padding: 0 6%;
 }
 
 /* Chuck portfolio page */

@@ -148,11 +148,6 @@ a.navbar-brand:hover {
     padding-bottom: 10px;
 }
 
-
-
-
-
-
 .outline {
     color: #2e2d2d;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
@@ -163,7 +158,7 @@ a.navbar-brand:hover {
   .outline:hover {
     color: #292828;
     -webkit-text-fill-color: #2e2d2d; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-width: .1px;
     -webkit-text-stroke-color: #2e2d2d;
   }
 
@@ -181,8 +176,6 @@ a.outline-link {
     
 }
 
-
-
 .cs-typeit {
     padding-left: 5%;
     padding-bottom: 2%;
@@ -194,10 +187,6 @@ a.outline-link {
 
 .dev-work {
     padding-top: 10%;
-}
-
-.project-image {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -355,7 +344,7 @@ a.back-arrow {
  }
 
 .cs-heading {
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .cs-paragraph {
@@ -400,26 +389,9 @@ div.overview.row {
     padding-top: 3%;
 }
 
-.competitor-img {
-    width: 80%;
-}
-
-.center {
-    text-align: center;
-}
-
 .tex-prompt {
     padding: 3% 10% 0;
 }
-.pain-points {
-    padding-top: 2%; 
-}
-
-.pp-img {
-    max-height: 50%;
-}
-
-
 
 .georgina-div {
     padding: 2% 0;
@@ -441,9 +413,6 @@ div.overview.row {
     padding: 5% 3%;
 }
 
-
-
-
 .user-journey-img img{
     border: solid 2px #1a8089;
 }
@@ -460,8 +429,10 @@ div.overview.row {
     padding: 0 6%;
 }
 
-
-
+.tex-user-journey {
+    padding: 0 6%;
+    margin-top: 1%;
+}
 
  .texicana-button {
 	box-shadow: 0px 10px 14px -7px #276873;
@@ -519,11 +490,6 @@ div.overview.row {
 
 .center-button {
     text-align: center;
-}
-
-.thankyou {
-    font-weight: 200;
-    padding: 2% 10%;
 }
 
 /* Chuck portfolio page */

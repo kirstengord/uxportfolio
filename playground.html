@@ -28,7 +28,7 @@
 
     <header>
         <!-- Bootstrap navbar -->
-        <nav class="text-right navbar navbar-expand-md navbar-light bg-light">
+        <nav class="cs text-right navbar navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand" href="index.html">kirsten gord</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -50,25 +50,25 @@
     </header> 
 
     <body>
-      <div class="container-fluid hero">
-        <div class="container-fluid chuck-heading">
-          <h1 class="chuck-title">PLAYGROUND</h1>
-          <h2 class="white subtitle">What I do for fun.</h2>
-          
-          </div>
-      </div>
-      <div class="about-heading center container-fluid">
-        <h1 id="typeitAbout" class="typeit-about"></h1>
+      <div class="cs-heading container-fluid">
+        <div class="row overview">
+        <div class="col-lg-9 col-md-10 col-sm-12">
+        <h3 class="back-arrow-padding"><a class="back-arrow" href="work.html"><i class="arrow fas fa-arrow-left"></i></a></h3>
+        <h1 class="title">playground</h1>
+        <h3 id="typeitAbout"></h3>
         <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
         <script>
             new TypeIt('#typeitAbout', {
-            strings: "Coming soon...",
+            strings: "what i do for fun...",
             speed: 80
             }).go();
         </script>
+        <p class="cs-paragraph">Coming soon!</p>
+      </div>
     </div>
-    <div class="center container-fluid">
-      <img class="mockup" src="images/being-mum.png" alt="Kirsten walking with daughters">
+    </div>
+    <div class="container-fluid">
+      <img class="cs-mockups" src="images/being-mum.png" alt="Kirsten walking with daughters">
     </div>
     <footer id="contact">
       <div class="container-fluid available">

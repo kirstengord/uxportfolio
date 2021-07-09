@@ -101,7 +101,9 @@ ul {
     letter-spacing: .1rem;
 }
     
-
+.typeit-subtitle {
+    padding: 2% 0;
+}
 
 /* Navbar */
 .navbar {

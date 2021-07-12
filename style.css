@@ -187,21 +187,11 @@ a.outline-link {
     border: solid 3px #2e2d2d;
 }
 
-.tex-border:hover {
-    border: solid 3px #CF2B4E;
+.gray-border:hover {
+    border: solid 3px #757575;
 }
 
-.wiin-border:hover {
-    border: solid 3px #0876DD;
-}
 
-.orange-border:hover {
-    border: solid 3px orangered;
-}
-
-.green-border:hover {
-    border: solid 3px rgb(63, 214, 63);
-}
 
 .cs-typeit {
     padding-left: 5%;

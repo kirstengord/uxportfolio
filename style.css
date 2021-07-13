@@ -103,6 +103,13 @@ ul {
     padding: 2% 0;
 }
 
+.outline2 {
+    color: #2e2d2d;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #292828;
+  }
+
 /* Navbar */
 .navbar {
     background-color: #ffffff!important;
@@ -177,8 +184,11 @@ a.outline-link {
 }
 
 .work {
-    padding: 0 5% 5%;
-    
+    padding: 10% 8% 5%;  
+}
+
+.recent-work {
+    font-size: 1.2rem;
 }
 
 .work-border {
@@ -363,7 +373,7 @@ a.back-arrow {
  }
 
 .cs-heading {
-    padding-top: 3%;
+    padding-top: 6%;
 }
 
 .cs-paragraph {

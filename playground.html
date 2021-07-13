@@ -28,33 +28,39 @@
 
     <header>
         <!-- Bootstrap navbar -->
-        <nav class="cs text-right navbar navbar-expand-md navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">kirsten gord</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="work.html">work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">contact</a>
-              </li>
-            </ul>
-            </div>
-        </nav>
+        <nav class="cs text-right navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">kirsten gord</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" data-toggle="dropdown">work</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="texicana.html">Texicana Ordering App</a></li>
+                <li><a class="dropdown-item" href="wiin.html">Work In Industry Now App</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="bold nav-link" href="playground.html">play</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>
+          </div>
+      </nav>
     </header> 
 
     <body>
       <div class="cs-heading container-fluid">
         <div class="row overview">
         <div class="col-lg-9 col-md-10 col-sm-12">
-        <h3 class="back-arrow-padding"><a class="back-arrow" href="work.html"><i class="arrow fas fa-arrow-left"></i></a></h3>
-        <h1>playground</h1>
+        <h1><span class="outline2">play</span>ground</h1>
         <h3 id="typeitAbout" class="typeit-subtitle"></h3>
         <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
         <script>
@@ -83,7 +89,10 @@
     </div>
     <footer id="contact">
       <div class="container-fluid available">
-        <h3 class="bold contact">say hello! &#128075;</h3>
+        <h3 class="bold contact">say hello &#128075;</h3>
+      </div>
+      <div class="padding-top-2 container-fluid">
+        <h4>Get in touch for opportunities or just to say hi!</h4>
       </div>
       <div class="footer container-fluid">
         <a href="https://www.linkedin.com/in/kirstengord/" target="_blank"><i class="icon fab fa-linkedin-in fa-2x"></i></a>

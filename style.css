@@ -40,7 +40,7 @@ h4 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.7;
 }
 
@@ -61,6 +61,10 @@ iframe {
 
 li {
     padding-top: 1%;
+}
+
+.list-item {
+    font-size: 1rem;
 }
 
 ul {
@@ -106,7 +110,7 @@ ul {
 .outline2 {
     color: #2e2d2d;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #292828;
   }
 
@@ -159,7 +163,7 @@ a.navbar-brand:hover {
 .outline {
     color: #2e2d2d;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #292828;
   }
 
@@ -805,7 +809,13 @@ div.container-fluid.row {
         letter-spacing: normal;
     } 
 
-  
+    .outline {
+        -webkit-text-stroke-width: 1px;
+      }
+
+    .outline2 {
+        -webkit-text-stroke-width: 1px;
+      }
 
     .heading {
         padding: 12% 3% 12%;
@@ -944,13 +954,8 @@ div.container-fluid.row {
         padding-top: 15%;
     }
 
-    .outline {
-        -webkit-text-stroke-width: 1px;
-      }
     
-      .outline:hover {
-        -webkit-text-stroke-width: 1px;
-      }
+    
 
     .typeit-about {
         font-size: 2rem;

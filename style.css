@@ -75,6 +75,7 @@ ul {
     font-weight: bold !important;
 }
 
+
 .italic {
     font-style: italic;
 }
@@ -95,6 +96,14 @@ ul {
     
 .padding-top-2 {
     padding-top: 2%;
+}
+
+.padding-bottom-1 {
+    padding-bottom: 1%;
+}
+
+.font-1 {
+    font-size: 1.2rem;
 }
 
 .title {
@@ -121,29 +130,14 @@ ul {
 }
 
 a.navbar-brand {
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
-.outline-brand {
-    color: #2e2d2d !important;
-    -webkit-text-fill-color: white !important; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px !important;
-    -webkit-text-stroke-color: #2e2d2d !important;
-  }
+a.navbar-brand:hover {
+    font-weight: bold;
+}
 
-  .outline-brand:hover {
-    color: #2e2d2d !important;
-    -webkit-text-fill-color: #2e2d2d !important; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 0 !important;
-    -webkit-text-stroke-color: #2e2d2d !important;
-  }
 
-  .outline-brand-hover:hover {
-    color: #2e2d2d !important;
-    -webkit-text-fill-color: white !important; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1.5px !important;
-    -webkit-text-stroke-color: #2e2d2d !important;
-  }
 
 .cs.navbar {
     padding: 2% 7% 0 !important;
@@ -204,12 +198,18 @@ a.outline-link {
 }
 
 /* Work section */
-.work-heading {
-    padding: 7% 5% 2%;
-}
 
 .work {
-    padding: 10% 8% 5%;  
+    padding: 10% 5% 5%;  
+}
+
+.down-arrow {
+    color: #2e2d2d;
+    text-decoration: none;
+}
+
+.down-arrow:hover {
+    color: #757575;
 }
 
 .recent-work {

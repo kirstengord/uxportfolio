@@ -75,7 +75,9 @@ ul {
     font-weight: bold !important;
 }
 
-
+.semi-bold {
+    font-weight: 300;
+}
 .italic {
     font-style: italic;
 }
@@ -83,6 +85,14 @@ ul {
 .white-section {
     background-color: white;
     margin: 3%;
+}
+
+.gray {
+    color: #4e4d4d;
+    background-color:rgb(238, 237, 237);
+    font-style: italic;
+    border-radius: 20px;
+    margin: 2% 0;
 }
  
 .row {
@@ -96,6 +106,10 @@ ul {
     
 .padding-top-2 {
     padding-top: 2%;
+}
+
+.padding-top-1 {
+    padding-top: 1%;
 }
 
 .padding-bottom-1 {
@@ -113,7 +127,8 @@ ul {
 }
     
 .typeit-subtitle {
-    padding: 2% 0;
+    padding: 2% 0 1.5%;
+    font-weight: 400;
 }
 
 .outline2 {
@@ -301,9 +316,9 @@ footer {
 }
 
 .about-text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 300;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 .about-img {
     width: 35%;
@@ -405,7 +420,7 @@ a.back-arrow {
     padding-top: 2%;
 }
 
-div.overview.row {
+div.overview.row, div.overview.card-deck {
     padding: 2% 5%;
 }
 
@@ -618,10 +633,7 @@ img.chuck-img {
     font-size: 1.2rem;
 }
 
-.card {
-    margin: 4% 0 2%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+
 
 .card-deck {
     padding-bottom: 3%;

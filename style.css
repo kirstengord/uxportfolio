@@ -238,7 +238,7 @@ a.outline-link {
 }
 
 .project-image {
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .down-arrow {
@@ -444,7 +444,7 @@ a.back-arrow {
 }
 
 div.overview.row, div.overview.card-deck {
-    padding: 2% 5%;
+    padding: 2% 4%;
 }
 
 .cs-title {
@@ -452,7 +452,7 @@ div.overview.row, div.overview.card-deck {
 }
 
 .cs-description {
-    padding: 1% 5% 0;
+    padding: 1% 4% 0;
 }
 
 .inprogress {
@@ -854,10 +854,11 @@ div.container-fluid.row {
         padding: 2% 0;
     }
 
-    hr {
-        border: solid 1px #2e2d2d;
-        margin: 3%;
-     }
+    div.cs-description.row {
+        padding: 1% 0 0;
+    }
+
+    
 
     h1 {
         font-size: 2.7rem;
@@ -955,11 +956,11 @@ div.container-fluid.row {
 @media (min-width: 768px) and (max-width: 980px) {
    
     .heading {
-        padding: 8% 6% 10%;
+        padding: 20% 6% 20%;
     }
 
     .work {
-        padding: 0 10%;
+        padding: 20% 6% 10%;
     }
 
     .about-heading {
@@ -982,9 +983,6 @@ div.container-fluid.row {
 
 
 @media (min-width: 415px) and (max-width: 768px) {
-    .typeit-about {
-        font-size: 2.5rem;
-    }
 
     .about-img {
         width: 40%;
@@ -1002,7 +1000,7 @@ div.container-fluid.row {
     }
 
     .heading {
-        padding: 40% 6% 70%;
+        padding: 40% 6% 40%;
     }
 
     .typeit {
@@ -1010,7 +1008,7 @@ div.container-fluid.row {
     }
 
     .work {
-        padding: 20% 4% 10%;
+        padding: 40% 4% 10%;
     }
     
 

@@ -63,7 +63,6 @@ img {
 }
 
 iframe {
-        border-radius: 20px;
         width: 85%;
     }
 
@@ -119,6 +118,10 @@ ul {
 
 .padding-top-1 {
     padding-top: 1%;
+}
+
+.padding-right-2 {
+    padding-right: 2%;
 }
 
 .padding-bottom-1 {
@@ -232,6 +235,10 @@ a.outline-link {
 
 .work {
     padding: 10% 5% 5%;  
+}
+
+.project-image {
+    margin-bottom: 2%;
 }
 
 .down-arrow {
@@ -995,14 +1002,16 @@ div.container-fluid.row {
     }
 
     .heading {
-        padding: 20% 6% 20%;
+        padding: 40% 6% 70%;
     }
 
     .typeit {
         padding-top: 15%;
     }
 
-    
+    .work {
+        padding: 20% 4% 10%;
+    }
     
 
     .typeit-about {
@@ -1030,9 +1039,9 @@ div.container-fluid.row {
 
 @media (max-width: 320px) {
 
-    .heading {
-        padding: 20% 10% 20% 5%;
-    }
+  .heading {
+      padding: 30% 4% 15%;
+  }
 }
 
 

@@ -145,6 +145,10 @@ a.text-link {
     font-size: 1rem;
 }
 
+a.nextcs-link {
+    color:#2e2d2d;
+}
+
 
 /* Navbar */
 .navbar {

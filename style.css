@@ -259,7 +259,7 @@ a.outline-link {
 }
 
 .gray-border:hover {
-    border: solid 3px #757575;
+    border: solid 5px #757575;
 }
 
 
@@ -600,30 +600,19 @@ div.overview.row, div.overview.card-deck {
 
 /* Chuck portfolio page */
 
-.chuck-heading {
-    text-align: center;
-}
-.chuck-title {
-    font-weight: 600;
-    font-size: 4rem;
+.chuck-hero-pic {
+    padding-left: 4%;
+    padding-right: 2%;
 }
 
-.chuck-mockup {
-    width: 50%;
-}
 
-.chuck-description {
-    font-size: 1.2rem;
-    padding: 3% 10%;
-}
+
 
 .bold {
     font-weight: 600;
 }
 
-.chuck-img {
-    border-radius: 0;
-}
+
 
 img.chuck-img {
     margin: 0;

@@ -75,7 +75,11 @@ li {
 }
 
 ul {
-    padding-left: 5%;
+    padding-left: 4%;
+}
+
+.img-outline {
+    border: solid 1px #2e2d2d;
 }
 
 .bold {
@@ -111,7 +115,10 @@ ul {
 .width-95 {
     width: 95%;
 }
-    
+
+.padding-left-3 {
+    padding-left: 3%;
+}
 .padding-top-2 {
     padding-top: 2%;
 }
@@ -132,8 +139,20 @@ ul {
     margin-top: 2%;
 }
 
+.margin-top-5 {
+    margin-top: 5%;
+}
+
 .margin-bottom-2 {
     margin-bottom: 2%;
+}
+
+.margin-bottom-4 {
+    margin-bottom: 4%;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
 }
 
 .font-1 {
@@ -611,7 +630,9 @@ div.overview.row, div.overview.card-deck {
     padding-right: 2%;
 }
 
-
+.chuck-logo {
+    width: 50%;
+}
 
 
 .bold {

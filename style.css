@@ -863,11 +863,11 @@ div.container-fluid.row {
     }
 
     .navbar {
-        padding: 1% 3% !important;
+        padding: 15px 30px !important;
     }
 
     div.overview.row {
-        padding: 2% 0;
+        padding: 1% 0;
     }
 
     div.cs-description.row {

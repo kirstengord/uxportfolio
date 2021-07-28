@@ -152,6 +152,12 @@ a.text-link {
     font-size: 1rem;
 }
 
+a.text-link2 {
+    color:#2e2d2d;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
 a.nextcs-link {
     color:#2e2d2d !important;
 }

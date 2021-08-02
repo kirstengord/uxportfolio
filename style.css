@@ -793,23 +793,6 @@ div.container-fluid.row {
     font-size: 1.4rem;
 }
 
-/* daily ui page */
-.daily-ui-heading {
-    text-align: center;
-    padding: 5% 0;
-}
-
-.subtitle {
-    font-weight: 200;
-    font-size: 1.5rem;
-    color: black;
-    padding-bottom: 3%;
-}
-
-.ui-card-deck {
-    margin: 0 1%;
-}
-
  /* Proposal page */
  body.proposal-body {
      text-align: center;
@@ -858,6 +841,49 @@ div.container-fluid.row {
  }
 
 
+@media (min-width: 1475px) {
+    .navbar {
+        padding: 2% 16.5% 0 !important;
+    }
+
+    .heading {
+        padding: 12% 17% 9%;
+    }
+
+    .work {
+        padding: 10% 16% 5%;
+    }
+
+    div.overview.row, div.overview.card-deck {
+        padding: 2% 15%;
+    }
+
+    hr.my-role {
+        margin: 0 16.5%;
+    }
+
+    hr.my-role2 {
+        margin: 0 16.5% 3%;
+    }
+
+    hr {
+        margin: 3% 16.5%;
+    }
+
+    .cs-description {
+        padding: 1% 15% 0;
+    }
+
+    .tex-storyboard {
+        padding: 0 16%;
+    }
+
+    .chuck-hero-pic {
+        padding-left: 16%;
+        padding-right: 14%;
+    }
+
+}
 
 @media (max-width: 766px) {
     /* homepage */

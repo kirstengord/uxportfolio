@@ -112,8 +112,8 @@ ul {
     margin-left: 0;
 }
 
-.width-95 {
-    width: 95%;
+.width-96 {
+    width: 96%;
 }
 
 .padding-left-3 {
@@ -153,6 +153,10 @@ ul {
 
 .margin-bottom-0 {
     margin-bottom: 0;
+}
+
+.width-90 {
+    width: 95%;
 }
 
 .font-1 {

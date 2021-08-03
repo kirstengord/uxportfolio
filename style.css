@@ -420,6 +420,11 @@ footer {
     text-decoration: none;
  }
 
+ /* contact page */
+ .contact {
+     padding-top: 8%;
+ }
+
  /* Texicana Case Study page */
 a.back-arrow {
     text-decoration: none;

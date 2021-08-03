@@ -78,6 +78,7 @@ li {
 
 ul {
     padding-left: 4%;
+    list-style-type: square;
 }
 
 .img-outline {

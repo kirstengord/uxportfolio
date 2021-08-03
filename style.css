@@ -8,6 +8,8 @@
     src: url('Shakies-PK3Pm.otf');
 }
 
+
+
 body {
     color: #2e2d2d;
     font-family: 'Poppins', sans-serif;
@@ -373,7 +375,7 @@ footer {
     line-height: 1.8;
 }
 .about-img {
-    width: 35%;
+    width: 25%;
     margin: 0;
 }
 
@@ -842,47 +844,18 @@ div.container-fluid.row {
 
 
 @media (min-width: 1475px) {
-    .navbar {
-        padding: 2% 16.5% 0 !important;
+    body, header {
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .heading {
-        padding: 12% 17% 9%;
+        padding: 15% 6% 15%;
     }
 
     .work {
-        padding: 10% 16% 5%;
+        padding: 20% 6% 10%;
     }
-
-    div.overview.row, div.overview.card-deck {
-        padding: 2% 15%;
-    }
-
-    hr.my-role {
-        margin: 0 16.5%;
-    }
-
-    hr.my-role2 {
-        margin: 0 16.5% 3%;
-    }
-
-    hr {
-        margin: 3% 16.5%;
-    }
-
-    .cs-description {
-        padding: 1% 15% 0;
-    }
-
-    .tex-storyboard {
-        padding: 0 16%;
-    }
-
-    .chuck-hero-pic {
-        padding-left: 16%;
-        padding-right: 14%;
-    }
-
 }
 
 @media (max-width: 766px) {

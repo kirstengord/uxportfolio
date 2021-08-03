@@ -846,7 +846,7 @@ div.container-fluid.row {
 
 @media (min-width: 1475px) {
     body, header {
-        max-width: 1200px;
+        max-width: 1080px;
         margin: 0 auto;
     }
 

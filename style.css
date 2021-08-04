@@ -8,7 +8,10 @@
     src: url('Shakies-PK3Pm.otf');
 }
 
-
+body, header {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 
 body {
     color: #2e2d2d;
@@ -232,7 +235,7 @@ a.navbar-brand:hover {
 
 /* home page heading */
 .heading {
-    padding: 12% 6% 9%;
+    padding: 15% 6% 15%;
 }
 
 .heading-text {
@@ -376,7 +379,7 @@ footer {
     line-height: 1.8;
 }
 .about-img {
-    width: 30%;
+    width: 35%;
     margin: 0;
 }
 
@@ -850,13 +853,13 @@ div.container-fluid.row {
 
 
 @media (min-width: 1475px) {
-    body, header {
+    /* body, header {
         max-width: 1080px;
         margin: 0 auto;
-    }
+    } */
 
     .heading {
-        padding: 15% 6% 15%;
+        padding: 17% 6% 17%;
     }
 
     .work {
@@ -883,7 +886,17 @@ div.container-fluid.row {
         padding: 1% 0 0;
     }
 
-    
+    hr.my-role {
+        margin: 0 4%;
+    }
+
+    hr.my-role2 {
+        margin: 0 4% 3%;
+    }
+
+    hr {
+        margin: 3% 4%;
+    }
 
     h1 {
         font-size: 2.7rem;

@@ -1,12 +1,12 @@
 new TypeIt("#typeit", {
-    speed: 75,
+    speed: 80,
   })
-    .type("I create btter", {delay: 300})
+    .type("I create btter", {delay: 500})
     .move(-4)
     .type('e')
     .move('END')
     .type(' experiences for users')
-    .pause(300)
+    .pause(400)
     .delete(-5)
     .type('people.')
     .go();

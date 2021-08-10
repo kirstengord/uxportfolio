@@ -112,6 +112,10 @@ ul {
     border-radius: 20px;
     margin: 2% 0;
 }
+
+.not-italic {
+    font-style: normal;
+}
  
 .row {
     margin-right: 0;

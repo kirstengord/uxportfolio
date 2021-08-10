@@ -297,10 +297,9 @@ a.outline-link {
     border: solid 3px #2e2d2d;
 }
 
-.gray-border:hover {
-    border: solid 5px #757575;
+.work-border:hover {
+    border: solid 5px #2e2d2d;
 }
-
 
 
 .cs-typeit {

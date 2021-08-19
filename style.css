@@ -650,9 +650,14 @@ div.overview.row, div.overview.card-deck {
     width: 50%;
 }
 
+.talent-hatched-logo {
+    width: 60%;
+}
+
 .figma-logo {
     width: 35%;
 }
+
 
 /* Chuck portfolio page */
 

@@ -51,15 +51,15 @@ p {
 
 hr {
     border-top: 2px solid #2e2d2d; 
-    margin: 3% 6%;
+    margin: 3% 6.5%;
  }
 
  hr.my-role {
-     margin: 0 6%;
+     margin: 0 6.5%;
  }
 
  hr.my-role2 {
-     margin: 0 6% 3%;
+     margin: 0 6.5% 3%;
  }
 
 img {
@@ -203,7 +203,7 @@ a.nextcs-link {
 /* Navbar */
 .navbar {
     background-color: #ffffff!important;
-    padding: 2% 6% 0 !important;  
+    padding: 2% 6.5% 0 !important;  
 }
 
 a.navbar-brand {
@@ -643,6 +643,15 @@ div.overview.row, div.overview.card-deck {
 .playground-img {
     width: 75%;
     padding: 0 6%;
+}
+
+/* talent hatched page  */
+.TH-com-logo {
+    width: 50%;
+}
+
+.figma-logo {
+    width: 35%;
 }
 
 /* Chuck portfolio page */

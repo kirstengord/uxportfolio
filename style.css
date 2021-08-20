@@ -84,6 +84,10 @@ ul {
     list-style-type: square;
 }
 
+.no-padding {
+    padding-left: 2.5%;
+}
+
 .img-outline {
     border: solid 1px #2e2d2d;
 }

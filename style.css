@@ -402,6 +402,11 @@ footer {
    color: #2e2d2d;
 }
 
+.CV-icon {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 .BUTTON_LDK {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;

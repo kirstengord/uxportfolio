@@ -16,3 +16,8 @@ new TypeIt("#typeit", {
 //     speed: 50,
 //     waitUntilVisible: true
 //     }).go();
+
+var dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
+var dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
+  return new bootstrap.Dropdown(dropdownToggleEl)
+})

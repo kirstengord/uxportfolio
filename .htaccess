@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "My Protected Folder"
+AuthUserFile
+Welcome:{SHA}QL4dEdSnUmMg4/SNOVm5pkS5WQk=

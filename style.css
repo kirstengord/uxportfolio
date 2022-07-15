@@ -884,7 +884,7 @@ div.container-fluid.row {
  /* Top Secret Page*/
 
  .top-secret-space {
-    padding-top: 500px;
+    padding-top: 20%;
  }
 
 @media (min-width: 1475px) {

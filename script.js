@@ -1,13 +1,3 @@
-new TypeIt("#typeit-top-secret", {
-  speed: 100,
-  })
-    .type('This is not a portfolio.', {delay: 500})
-    .delete(-24)
-    .type('You never saw this.', {delay: 500})
-    .delete(-19)
-    .type('Psst...scroll down.')
-    .go();   
-
 new TypeIt("#typeit", {
     speed: 80,
   })

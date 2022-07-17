@@ -443,6 +443,12 @@ footer {
      padding-top: 8%;
  }
 
+ /*top-secret*/
+ .top-secret-padding {
+     padding-top: 50%;
+     padding-bottom: 50%;
+ }
+
  /* Texicana Case Study page */
 a.back-arrow {
     text-decoration: none;
@@ -880,11 +886,6 @@ div.container-fluid.row {
      margin: 10px 40px;
  }
 
- /* Top Secret Page*/
-
- .top-secret-space {
-    padding-top: 20%;
- }
 
 @media (min-width: 1475px) {
     /* body, header {

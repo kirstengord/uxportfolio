@@ -1,13 +1,3 @@
-@font-face {
-    font-family: Salazur;
-    src: url('Salazur-L38n5.otf');
-}
-
-@font-face {
-    font-family: Shakies;
-    src: url('Shakies-PK3Pm.otf');
-}
-
 body, header {
     max-width: 1100px;
     margin: 0 auto;
@@ -37,6 +27,7 @@ h2 {
 h3 {
     font-size: 1.8rem;
     font-weight: 300;
+    line-height:2.5rem;
 }
 
 h4 {
@@ -247,7 +238,7 @@ a.navbar-brand:hover {
 
 /* home page heading */
 .heading {
-    padding: 13% 6.5% 15%;
+    padding: 13% 8% 10% 6.5%;
 }
 
 .heading-text {
@@ -278,10 +269,18 @@ a.outline-link {
     padding-top: 7%;
 }
 
+.arrow {
+    padding-bottom: 20%;
+}
+
 /* Work section */
 
+.grey-section {
+    background-color:#1a8089;
+}
+
 .work {
-    padding: 10% 5% 5%;  
+    padding: 3% 5% 5%;  
 }
 
 .project-image {

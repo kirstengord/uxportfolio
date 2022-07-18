@@ -101,7 +101,7 @@ ul {
 }
 
 .gray {
-    color: #4e4d4d;
+    color: #1a1919;
     background-color:rgb(238, 237, 237);
     font-style: italic;
     border-radius: 20px;
@@ -320,6 +320,24 @@ a.outline-link {
 
 .dev-work {
     padding-top: 10%;
+}
+
+
+/* client section */
+.clients {
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+.client-img {
+    border-style:solid;
+    border-color:#292828
+}
+
+/* review section */
+.reviews {
+    padding-top: 20%;
+    padding-bottom: 5%;
 }
 
 

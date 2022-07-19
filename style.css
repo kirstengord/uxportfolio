@@ -35,6 +35,11 @@ h4 {
     font-weight: 200;
 }
 
+h6 {
+    font-size: 1rem;
+    font-weight:200;
+}
+
 p {
     font-size: 1.2rem;
     line-height: 1.7;
@@ -43,6 +48,10 @@ p {
 hr {
     border-top: 2px solid #2e2d2d; 
     margin: 3% 6.5%;
+ }
+
+ b {
+     font-weight:700;
  }
 
  hr.my-role {
@@ -104,6 +113,13 @@ ul {
     color: #1a1919;
     background-color:rgb(238, 237, 237);
     font-style: italic;
+    border-radius: 20px;
+    margin: 2% 0;
+}
+
+.gray2 {
+    color: #1a1919;
+    background-color:rgb(238, 237, 237);
     border-radius: 20px;
     margin: 2% 0;
 }
@@ -336,8 +352,7 @@ a.outline-link {
 
 /* review section */
 .reviews {
-    padding-top: 20%;
-    padding-bottom: 5%;
+    padding: 20% 5% 3%;
 }
 
 

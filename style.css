@@ -54,6 +54,10 @@ hr {
      font-weight:700;
  }
 
+ .underline {
+     border-bottom:5px solid #222121;
+ }
+
  hr.my-role {
      margin: 0 6.5%;
  }

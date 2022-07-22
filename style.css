@@ -283,6 +283,7 @@ a.navbar-brand:hover {
 
 a.outline-link {
     text-decoration: none;
+    color: gray;
 }
 
 .typeit {
@@ -301,6 +302,10 @@ a.outline-link {
 
 .work {
     padding: 3% 5% 5%;  
+}
+
+.work-cds {
+    padding: 3% 1.5%;
 }
 
 .project-image {

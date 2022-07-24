@@ -267,7 +267,8 @@ a.navbar-brand:hover {
 }
 
 .nav-link:hover {
-    font-weight: bold !important;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 

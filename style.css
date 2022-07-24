@@ -35,6 +35,10 @@ h4 {
     font-weight: 200;
 }
 
+h5 {
+    font-size: 1.5rem;
+}
+
 h6 {
     font-size: 1rem;
     font-weight:200;
@@ -81,6 +85,10 @@ li {
 
 .list-item {
     font-size: 1rem;
+}
+
+.list-item2 {
+    font-size: 1.2rem;
 }
 
 ul {
@@ -214,6 +222,19 @@ a.nextcs-link {
     color:#2e2d2d !important;
 }
 
+a.pres-link {
+    color:#2e2d2d !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.public {
+    padding: 1% 4% 5%
+}
+
+div.back.row {
+    padding: 6% 5% 3%;
+}
 
 /* Navbar */
 .navbar {
@@ -353,7 +374,7 @@ a.outline-link {
 /* client section */
 .clients {
     padding-top: 20%;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 .client-img {
@@ -364,6 +385,10 @@ a.outline-link {
 /* review section */
 .reviews {
     padding: 20% 5% 3%;
+}
+
+.reviews2 {
+    padding: 10% 5% 3%;
 }
 
 
@@ -551,6 +576,8 @@ a.back-arrow {
 div.overview.row, div.overview.card-deck {
     padding: 2% 4%;
 }
+
+
 
 .cs-title {
     padding: 2% 5% 0;

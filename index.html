@@ -12,7 +12,7 @@
         <meta property="og:url" content="https://www.kirstengord.com">
         <meta property="og:title" content="Kirsten Gord - Portfolio" />
         <meta property="og:description" content="I create better experiences for people." />
-        <title>Kirsten Gord - Product Designer</title>
+        <title>Kirsten Gord - UX Designer</title>
         <!-- Bootstrap link -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <!-- style.css link -->
@@ -21,7 +21,7 @@
         <link rel="icon" href="favicon2.ico">
         <!-- Google Fonts link -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Shadows+Into+Light&display=swap" rel="stylesheet">
         <!-- Font Awesome -->
         <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
     </head>
@@ -35,7 +35,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown">
+              <!-- <li class="nav-item dropdown">
                 <a class="bold nav-link dropdown-toggle" href="index.html" data-toggle="dropdown">work</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="texicana.html">Texicana Ordering App</a></li>
@@ -43,12 +43,15 @@
                   <li><a class="dropdown-item" href="chuckroach.html">Artist Portfolio Redesign</a></li>
                   <li><a class="dropdown-item" href="visitmerkel.html">Visit Merkel Website</a></li>
                 </ul>
-              </li>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="playground.html">play</a>
+                <a class="bold nav-link" href="#work">work</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blog</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">contact</a>
@@ -60,47 +63,179 @@
 
     <body id="homepage">
       <div class="heading container-fluid">
-        
           <h1 class="name">hi! 👋  i'm <a class="outline-link work-link" href="about.html"><span class="outline"> kirsten</span></a>...</h1>
-          <h1 class="bold">a UX<a class="outline-link work-link" href="#work"><span class="outline"> designer </span></a></h1>
-          <h3 id="typeit" class="typeit"></h3>
+          <h1 class="bold">a <a class="outline-link work-link" href="blog.html"><span class="outline">storyteller</span></a> who <a class="outline-link work-link" href="#work"><span class="outline"> designs</span></a></h1>
+          <h3 class="mt-4">I weave stories into every design project I do, bringing the focus back to what matters most...people.</h3>
       </div>
-      <div class="text-center container-fluid hand-pointing">
+      <div class="text-center arrow container-fluid">
         <h2><a class="down-arrow" href="#work"><i class="fas fa-arrow-alt-circle-down"></i></a></h2>
       </div>
+    
       <section id="work">
-        <div class="row work container-fluid">
+        <div class="work row container-fluid">
+            <div class="col-12">
+                <h1>my work</h1>
+                <p>I have successfully delivered projects with Avanti West Coast, VetPartners, BSI, and Fortius including: audits and competitor analysis ▪ research ▪ information architecture ▪ tree testing ▪ personas ▪ user flows / journeys ▪ wireframes ▪ prototypes ▪ usbility testing<br><br>Internally, I lead our Community of Practice planning team and facilitate DesignOps projects to benefit the team and wider organisation.</p>
+            </div>
+            <!-- <div class="col-12">
+            <ul class="nav nav-tabs nav-fill">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">All projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">UX Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">DesignOps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Service Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Public Speaking</a>
+              </li>
+            </ul>
+          </div> -->
+          
+            <div class="work-cds card-deck">
+                <div class="card border-dark">
+                    <img class="card-img-top" src="images/work/return-ticket2.png" alt="train">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Preventing errors and creating clear options for return tickets</b></h5>
+                      <p class="card-text"><small class="text-muted">Research ▪ User Flows ▪ Prototype ▪ Video</small></p>
+                      <p class="card-text">I worked with a national rail company on an error which was causing high drop off rates during their ticket purchase journey. I redesigned the journey to prevent the error altogether and worked with developers to update the backend logic to support the new design. I supplemented my design documentation with prototype stories and videos of the prototype in action.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-dark disabled">Case study coming soon!</a>
+                      </div>
+                  </div>
+                <div class="card border-dark">
+                    <img class="card-img-top" src="images/work/account-creation.png" alt="woman on laptop">
+                    <div class="card-body">
+                      <h5 class="card-title"><b>Simplifying the account creation process for train travellers</b></h5>
+                      <p class="card-text"><small class="text-muted">Research ▪ Analytics ▪ Prototype</small></p>
+                      <p class="card-text">I used storytelling backed up by analytics to help a national rail company understand the importance of having an account creation process that was quick and easy for their customers. This required careful management of different stakeholders within the company and understanding their business objectives. The outcome was an account creation form reduced from 16 fields to 7.</p>
+                    </div>
+                    <div class="card-footer">
+                      <a href="#" class="btn btn-dark disabled">Case study coming soon!</a>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="work-cds card-deck">
+                    <div class="card border-dark">
+                        <img class="card-img-top" src="images/work/best-fare-finder.png" alt="collection of mobile sketches next to laptop">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Helping flexible train travellers find the best fare</b></h5>
+                          <p class="card-text"><small class="text-muted">Research ▪ Sketch ▪ Prototype ▪ Test</small></p>
+                          <p class="card-text">I worked with a Senior Designer to deliver a brand new feature for a national rail company that allows flexible travellers to view the best fare within a range of dates. I created two personas to shift the focus back to customers rather than just business outcomes resulting in a more human-centered product.</p>
+                        </div>
+                        <div class="card-footer">
+                          <a href="#" class="btn btn-dark disabled">Case study coming soon!</a>
+                          </div>
+                      </div>
+                      <div class="card border-dark">
+                          <img class="card-img-top" src="images/work/designops.png" alt="design team">
+                          <div class="card-body">
+                              <h5 class="card-title"><b>Improving the experience of designers and design team partners</b></h5>
+                              <p class="card-text"><small class="text-muted">DesignOps ▪ Research ▪ Roadmap</small></p>
+                            <p class="card-text">After being aquired by a global corporation, I took on a large internal research project to discover and define the value of DesignOps within our team and the wider organisation resulting in a roadmap and backlog of projects to improve the way we work and how we work together.</p>
+                          </div>
+                          <div class="card-footer">
+                            <a href="#" class="btn btn-dark disabled">Case study coming soon!</a>
+                            </div>
+                      </div>
+                         </div>
+                            <div class="work-cds card-deck">
+                                <div class="card border-dark">
+                                      <img class="card-img-top" src="images/work/library.png" alt="design books">
+                                      <div class="card-body">
+                                        <h5 class="card-title"><b>Encouraging further learning with an accessible library 🤓</b></h5>
+                                        <p class="card-text"><small class="text-muted">Information Architecture ▪ Service Design</small></p>
+                                        <p class="card-text">After several unsuccessful attempts at finding and borrowing a book from our team library, I realised we we lacking a clear system for checking out books. I used Airtable to create a library catalog interface that allows the team to find all of our books (including e-books) and see which ones are available or checked out. This turned into a full service project including creating a #xd-library slack channel, signage, and video how-to for checking out books.</p>
+                                      </div>
+                                      <div class="card-footer">
+                                        <a href="#" class="btn btn-dark disabled">Case study coming soon!</a>
+                                        </div>
+                                    </div>
+                                    <div class="card border-dark">
+                                        <img class="card-img-top" src="images/work/tech-pres.png" alt="kirsten presenting to a primary school">
+                                        <div class="card-body">
+                                          <h5 class="card-title"><b>Inspiring current and future designers to learn and grow</b></h5>
+                                          <p class="card-text"><small class="text-muted">Public Speaking</small></p>
+                                          <p class="card-text">Storytelling is my superpower. Here is a selection of speaking engagements including:</p>
+                                          <ul class="card-text">
+                                            <li class="list-item2"><a href="https://www.loom.com/share/5cd0746348594d5992ba468d0de45ed0" target="_blank">The Power of Stories</a> - Presentation</li>
+                                            <li class="list-item2"><a href="https://docs.google.com/presentation/d/1bpVhOGFo4WiIN-o6GqTKsSKNv0Hh4VujjjfNMGHEP_8/edit?usp=sharing" target="_blank">Gender Inequality in Tech</a> - Presentation</li> 
+                                            <li class="list-item2"><a href="https://vimeo.com/672018887" target="_blank">Finding Your First Design Role</a> - Panel</li>  
+                                          </ul>
+                                        </div>
+                                        <div class="card-footer">
+                                          <a href="public-speaking.html" class="btn btn-dark">View presentations</a>
+                                          </div>
+                                      </div>
+                                          </div>
+                              </div>
+                
+         
+      </section>
+      <section id="clients">
+        <div class="work row container-fluid">
+          <div class="clients col-12">
+              <h1>clients i've worked with...</h1>
+          </div>
+          <div class="mt-2 mb-2 col-lg-4 col-md-6">
+            <img class="client-img" src="images/clients/Avanti.png" alt="Avanti West Coast">
+         </div>
+          <div class="mt-2 mb-2 col-lg-4 col-md-6">
+            <img class="client-img" src="images/clients/vetpartners.png" alt="Vet Partners">
+         </div>
+         <div class="mt-2 col-lg-4 col-md-6">
+          <img class="client-img" src="images/clients/BSI.png" alt="BSI">
+       </div>
+       <div class="mt-2 col-lg-4 col-md-6">
+        <img class="client-img" src="images/clients/Fortius.png" alt="Fortius">
+     </div>
+     <div class="mt-2 col-lg-4 col-md-6">
+      <img class="client-img" src="images/clients/c2c.png" alt="c2c">
+   </div>
+          </div>
+      </section>
+      <section id="reviews">
+        <div class="reviews row container-fluid">
           <div class="col-12">
-            <h3 class="recent-work">recent work</h3>
+              <h1>what people say...</h1>
           </div>
-          <div class="col-lg-6 col-md-6 project">
-            <a href="texicana.html"><img class="project-image work-border" alt="link-to-Texicana-App-Case-Study" src="images/Texicana.png"></a>
-          </div>
-          <div class="col-lg-6 col-md-6 project">
-            <a href="talenthatched.html"><img class="project-image work-border" alt="link-to-Talent-Hatched-Case-Study" src="images/talenthatched.png"></a>
-          </div>
-          <div class="col-lg-6 col-md-6 project">
-            <a href="chuckroach.html"><img class="project-image work-border" alt="link-to-artist-portfolio-Case-Study" src="images/chuckportfolio.png"></a>
-          </div>
-          <div class="col-lg-6 col-md-6 project">
-            <a href="visitmerkel.html"><img class="project-image work-border" alt="link-to-visit-merkel-portfolio-Case-Study" src="images/visitmerkel.png"></a>
-          </div>
+          <div class="mt-4 col-1"><i class="fa-3x fas fa-quote-left"></i></div>
+          <div class="mt-4 col-10 gray2">
+            <p class="pl-3 pt-2"><b>Kirsten is a force of nature!</b><br> Since our first call, I've known her progress within the design field will be unparalleled - since she has set her mind on design as a career, she has been achieving that goal with speed and determination. From self-learning coding to the ease with which she applies UX frameworks, to her confident and inspiring presentation skills, she's been nothing but brilliant. Clients absolutely love her, and the account she has been working on has significantly grown, due to the brilliant work she's been doing. I have immense respect for how much energy and passion she spends on learning, she made our team so much better since she has joined in so many ways, from working on our progression framework, to systematising our library, to proactively leading research on design ops and looking at how it can help improve the whole organization beyond our team.”</p>
+            <h6 class="pl-3 pt-3 pb-2"><b>Aleksandra Melnikova,</b> Head of Experience Design, Inviqa</h6>  
+         </div>
+         <div class="mt-4 col-11 gray2">
+          <p class="pl-3 pt-2"></i> <b>I love working on UX projects with Kirsten.</b> <br>She is great at engaging multiple stakeholders across different areas of the business and making workshops fun and insightful. She has a great level of attention to detail and tenacity when exploring problems and ensures solutions are all encompassing of different customer scenarios. In the rail industry, this can be challenging but Kirsten leaves no stone unturned.”</p>
+          <h6 class="pl-3 pt-3 pb-2"><b>Tom Rowe,</b> Digital Optimisation Manager, Avanti West Coast</h6>
+       </div>
+       <div class="mt-4 col-1"><i class="fa-3x fas fa-quote-right"></i></div>
+        <div class="mt-4 col-1"><i class="fa-3x fas fa-quote-left"></i></div>
+         <div class="mt-4 gray2 col-10">
+           <p class="pl-3 pt-2">
+            <b>She goes above and beyond to make things run smoothly for the team.</b><br> She's innovative and forward thinking. Her idea to create a template to track progress has been super helpful and I think that's a really strong area for Kirsten. She sees how systems can be improved, creates a solution and is generous enough to share her ideas without hesitation."</p>
+            <h6 class="pl-3 pt-3 pb-2"><b>Sarah Haidermota,</b> Early Stage Designer, Inviqa</h6>
+          </p>
         </div>
+          </div>
       </section>
       <footer id="contact">
         <div class="container-fluid available">
-          <h3 class="bold contact">say hello &#128075;</h3>
+          <h3 class="bold contact">let's make something amazing together 🤓</h3>
         </div>
         <div class="padding-top-2 container-fluid">
-          <p>Get in touch for opportunities or just to say hi!</p>
+          <p>Get in touch!</p>
         </div>
         <div class="footer container-fluid">
           <a href="https://www.linkedin.com/in/kirstengord/" target="_blank"><i class="icon fab fa-linkedin-in fa-2x"></i></a>
           <a href="mailto:kirstengorddesign@gmail.com" target="_blank"><i class="icon far fa-envelope fa-2x"></i></a>
-          <a href="https://dribbble.com/kirstengord" target="_blank"><i class="icon fab fa-dribbble fa-2x"></i></a>
-          <a href="https://github.com/kirstengord" target="_blank"><i class="icon fab fa-github fa-2x"></i></a>
         </div>
-        <p class="copyright"><span class="copyright-sign">©</span> 2021 code and design by kirsten gord ♡</p>
+        <p class="copyright"><span class="copyright-sign">©</span> 2022 code and design by kirsten gord ♡</p>
     </footer>
     <!-- Javascript for Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -108,8 +243,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- TypeitJS script -->
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
-    <script src="script.js"></script>
-
+    <script src="script.js"></script> 
     </body>
 </html>
 

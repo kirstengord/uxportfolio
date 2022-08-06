@@ -148,6 +148,10 @@ ul.services-list {
     margin: 3%;
 }
 
+.white2 {
+    background-color: white !important;
+}
+
 .gray {
     color: #1a1919;
     background-color:#eeeded;
@@ -158,9 +162,11 @@ ul.services-list {
 
 .gray2 {
     color: #1a1919;
-    background-color:rgb(238, 237, 237);
     border-radius: 20px;
     margin: 2% 0;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #ffd900;
 }
 
 .gray3 {
@@ -168,8 +174,22 @@ ul.services-list {
     font-weight: 300;
 }
 
+.gray4 {
+    color: #1a1919;
+    border-radius: 20px;
+    margin: 2% 0;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: #999797;
+}
+
 .highlight {
     background-color: #ffd900;
+    font-weight: 400;
+}
+
+.highlight2 {
+    background-color: #21e1e1;
 }
 
 .not-italic {
@@ -250,8 +270,9 @@ a.text-link {
 
 a.text-link2 {
     color:#2e2d2d;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.2rem;
+    text-decoration: underline;
 }
 
 a.nextcs-link {
@@ -305,7 +326,10 @@ a.navbar-brand:hover {
 
 .page {
     font-weight: bold;
-    background-color: #ffd900;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: #ffd900;
+    border-radius: 10px;
     
 }
 .home.nav-link {
@@ -314,6 +338,10 @@ a.navbar-brand:hover {
 
 .nav-link:hover {
     font-weight: bold;
+}
+
+.yellow {
+    background-color: #ffd900;
 }
 
 
@@ -413,7 +441,7 @@ a.outline-link {
 
 /* client section */
 .clients {
-    padding-top: 20%;
+    padding-top: 2%;
     padding-bottom: 1%;
 }
 
@@ -424,7 +452,7 @@ a.outline-link {
 
 /* review section */
 .reviews {
-    padding: 20% 5% 3%;
+    padding: 5% 5% 3%;
 }
 
 .reviews2 {

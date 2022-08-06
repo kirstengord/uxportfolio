@@ -17,6 +17,7 @@ h1 {
     font-weight: bold;
     line-height: 1.5;
     letter-spacing: .2rem;
+    font-weight: 900;
 }
 
 .cs-title2 {
@@ -30,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 300;
     line-height:2.5rem;
 }
@@ -131,7 +132,7 @@ ul.services-list {
 }
 
 .bold {
-    font-weight: bold !important;
+    font-weight: 900 !important;
 }
 
 .semi-bold {
@@ -149,7 +150,7 @@ ul.services-list {
 
 .gray {
     color: #1a1919;
-    background-color:rgb(238, 237, 237);
+    background-color:#eeeded;
     font-style: italic;
     border-radius: 20px;
     margin: 2% 0;
@@ -165,6 +166,10 @@ ul.services-list {
 .gray3 {
     color: #6c757d;
     font-weight: 300;
+}
+
+.highlight {
+    background-color: #ffd900;
 }
 
 .not-italic {
@@ -277,6 +282,7 @@ a.navbar-brand {
 
 a.navbar-brand:hover {
     font-weight: bold;
+    background-color: #ffd900;
 }
 
 
@@ -294,16 +300,20 @@ a.navbar-brand:hover {
     color: #2e2d2d !important;
     font-size: 1.2rem;
     font-weight: 300;
-    padding-left: 50px !important;
+    margin-left: 50px !important;
 }
 
+.page {
+    font-weight: bold;
+    background-color: #ffd900;
+    
+}
 .home.nav-link {
     font-weight: 600 !important;
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+    font-weight: bold;
 }
 
 
@@ -329,8 +339,8 @@ a.navbar-brand:hover {
 
   .outline:hover {
     color: #2e2d2d;
-    -webkit-text-fill-color: #2e2d2d; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 0;
+    -webkit-text-fill-color: #ffd900; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #2e2d2d;
   }
 

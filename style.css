@@ -95,7 +95,6 @@ hr {
 
 img {
     width: 100%;
-
 }
 
 iframe {
@@ -162,7 +161,7 @@ ul.services-list {
 
 .gray2 {
     color: #1a1919;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     margin: 2% 0;
     border-style: dashed;
     border-width: 10px;
@@ -175,12 +174,11 @@ ul.services-list {
 }
 
 .gray4 {
-    color: #1a1919;
-    border-radius: 20px;
+    color: #2e2d2d;
     margin: 2% 0;
     border-style: dashed;
     border-width: 10px;
-    border-color: #757272;
+    border-color: #908f8f;
 }
 
 .highlight {
@@ -189,8 +187,12 @@ ul.services-list {
 }
 
 .highlight2 {
-    background-color: #21e1e1;
+    font-weight: bold !important;
 }
+
+/* .highlight2 {
+    background-color: #21e1e1;
+} */
 
 .not-italic {
     font-style: normal;
@@ -268,11 +270,31 @@ a.text-link {
     font-size: 1rem;
 }
 
+a.text-link:hover {
+    background-color: #ffd900;
+}
+
 a.text-link2 {
     color:#2e2d2d;
     font-weight: 600;
     font-size: 1.2rem;
     text-decoration: underline;
+}
+
+a.text-link2:hover {
+    text-decoration: none;
+    background-color:#ffd900;
+}
+
+a.text-link3 {
+    color: #2e2d2d;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.text-link3:hover {
+    text-decoration: none;
+    background-color: #ffd900;
 }
 
 a.nextcs-link {
@@ -291,6 +313,10 @@ p.nda {
     font-size: 1rem;
 }
 
+.card {
+    border-radius:0;
+}
+
 /* Navbar */
 .navbar {
     background-color: #ffffff!important;
@@ -299,6 +325,7 @@ p.nda {
 
 a.navbar-brand {
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 a.navbar-brand:hover {
@@ -329,7 +356,6 @@ a.navbar-brand:hover {
     border-style: dashed;
     border-width: 3px;
     border-color: #ffd900;
-    border-radius: 10px;
     
 }
 .home.nav-link {
@@ -342,6 +368,10 @@ a.navbar-brand:hover {
 
 .yellow {
     background-color: #ffd900;
+}
+
+.dark {
+    background-color: #212121;
 }
 
 
@@ -497,7 +527,8 @@ footer {
 }
 
 .icon:hover {
-    color: #757575;
+    background-color:#222121;
+    color: #ffd900;
 }
 
 .copyright {

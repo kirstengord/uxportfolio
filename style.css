@@ -95,6 +95,7 @@ hr {
 
 img {
     width: 100%;
+    border-radius: 10px;
 }
 
 iframe {
@@ -161,7 +162,7 @@ ul.services-list {
 
 .gray2 {
     color: #1a1919;
-    /* border-radius: 20px; */
+    border-radius: 20px;
     margin: 2% 0;
     border-style: dashed;
     border-width: 10px;
@@ -177,6 +178,7 @@ ul.services-list {
     color: #2e2d2d;
     margin: 2% 0;
     border-style: dashed;
+    border-radius: 20px;
     border-width: 10px;
     border-color: #908f8f;
 }
@@ -313,8 +315,8 @@ p.nda {
     font-size: 1rem;
 }
 
-.card {
-    border-radius:0;
+.card-img-top {
+    border-radius: 0;
 }
 
 /* Navbar */
@@ -354,6 +356,7 @@ a.navbar-brand:hover {
 .page {
     font-weight: bold;
     border-style: dashed;
+    border-radius: 8px;
     border-width: 3px;
     border-color: #ffd900;
     
@@ -475,10 +478,7 @@ a.outline-link {
     padding-bottom: 1%;
 }
 
-.client-img {
-    border-style:solid;
-    border-color:#292828
-}
+
 
 /* review section */
 .reviews {
@@ -1206,6 +1206,10 @@ div.container-fluid.row {
         padding: 20% 6% 10%;
     }
 
+    .reviews {
+        padding: 5% 6% 3%;
+    }
+
     .about-heading {
         padding: 5% 8% 2%;
     }
@@ -1252,6 +1256,10 @@ div.container-fluid.row {
 
     .work {
         padding: 40% 4% 10%;
+    }
+
+    .reviews {
+        padding: 5% 4% 3%;
     }
     
 

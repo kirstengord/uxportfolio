@@ -327,7 +327,6 @@ p.nda {
 
 a.navbar-brand {
     font-size: 1.2rem;
-    font-weight: bold;
 }
 
 a.navbar-brand:hover {
@@ -400,6 +399,7 @@ a.navbar-brand:hover {
 
   .outline:hover {
     color: #2e2d2d;
+    text-decoration: none;
     -webkit-text-fill-color: #ffd900; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1;
     -webkit-text-stroke-color: #2e2d2d;

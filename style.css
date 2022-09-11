@@ -189,7 +189,7 @@ ul.services-list {
 }
 
 .highlight2 {
-    font-weight: bold !important;
+    background-color: #ffd900;
 }
 
 /* .highlight2 {
@@ -856,9 +856,9 @@ div.overview.row, div.overview.card-deck {
 }
 
 
-.bold {
+/* .bold {
     font-weight: 600;
-}
+} */
 
 
 
